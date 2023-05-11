@@ -17,7 +17,7 @@ const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter")
 //---------------------------------------------------------------------------
 cmd({
             pattern: "join",
-            desc: "joins group by link",
+            desc: "සබැඳිය මගින් කණ්ඩායමට සම්බන්ධ වේ...",
             category: "owner",
             react: "📎",
             use: '<group link.>',
