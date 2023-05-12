@@ -55,7 +55,7 @@ cmd({
     },
     async(Void, citel) => {
         let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
-        let cap = `*🌐 𝗣𝗥𝗔𝗕𝗔𝗧𝗛-𝗠𝗗 _𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 ♦️*
+        let cap = `*🌐 Qᴜᴇᴇɴ-ɴᴇᴛʜᴜ-ᴍᴅ ⦁ _𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 ♦️*
 
 ●. *Support group :* https://chat.whatsapp.com/KwFkWjI8qJ6B174esar8IM
 
@@ -171,8 +171,7 @@ cmd({
 .logo30 text
 
 
-ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ
-ʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸
+Qᴜᴇᴇɴ-ɴᴇᴛʜᴜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟᴀ
 `,
 
                 footer: tlang().footer,
@@ -414,7 +413,7 @@ cmd({
                 caption: `
 
 ┌────────────────────────────
-│  👨‍💻 *PRABATH-MD* 👨‍💻  *COMMANDS* 🎗️
+│  👨‍💻 *QUEEN-NETHU-MD* 👨‍💻  *COMMANDS* 🎗️
 └────────────────────────────
 
 
@@ -483,8 +482,7 @@ cmd({
 │.sn
 └─────────◉
 
-ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ
-ʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸
+Qᴜᴇᴇɴ-ɴᴇᴛʜᴜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟᴀ
 `,
 
                 footer: tlang().footer,
@@ -557,8 +555,7 @@ cmd({
 ✅ *ACTIVE ADD AND LEFT MSJ -* .act events
 ❌ *DEACTIVE ADD AND LEFT MSJ -* .deact events
 
-ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ
-ʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸
+Qᴜᴇᴇɴ-ɴᴇᴛʜᴜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟᴀ
 `,
 
 
