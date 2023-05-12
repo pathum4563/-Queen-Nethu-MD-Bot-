@@ -25,8 +25,10 @@
   "ALIVE_IMG": {
 
     "description": "💕🪴alive එකට ලබාදිය යුතු image එකේ url එක ලබ දෙන්න🪴💕(www.imgbb.com)",
+    
+    "value": "https://i.ibb.co/nfBjYtT/20230510-150925.gif"
 
-     "required" :false
+     "required" :true
 
     },
 
@@ -42,7 +44,7 @@
 
     "description": "💞🪴Auto Voice reply යන්න ඕන නම් true දෙන්න ඕනෙ නැත්තම් false දෙන්න..💞🪴",
 
-     "value": "false"
+     "value": "true"
 
     },
   
@@ -50,7 +52,7 @@
 
     "description": "💞🪴auto sticker යන්න ඕන නම් true දෙන්න ඕනෙ නැත්තම් false දෙන්න🪴💕",
 
-     "value": "false"
+     "value": "true"
 
     },
 
