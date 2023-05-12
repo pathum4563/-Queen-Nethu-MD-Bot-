@@ -37,20 +37,20 @@
           "footer": "MR>Hansamala",
           "by": "Made by: *citelvoid*",
           "chat_desc": "විකල්ප ඇත* : 1. නිශ්ශබ්ද කරන්න\n2. නිහඬ නොකරන්න\n3. සංරක්ෂිතය\n4. සංරක්ෂණය කරන්න\n5. කියවන්න\n6. නොකියවූ\n7. මකා දමන්න",
-          "success": "Done ✓",
-          "dot": "Hi, Did you mean *-help?*\n just.. don't bother me while I'm learning piano and calligarphy",
-          "couple_male": "*I would'nt do those silly things\n I’ve never once thought of you as an ally. Not you. Not him. Not her.\n All people are nothing but tools.*",
-          "couple_female": "*I would'nt do those silly things\n I’ve never once thought of you as an ally. Not you. Not him. Not her.\n All people are nothing but tools*",
-          "admin": "𝑇ℎ𝑖𝑠 𝑐𝑜𝑚𝑚𝑎𝑛𝑑 𝑖𝑠 𝑜𝑛𝑙𝑦 𝑓𝑜𝑟 𝑔𝑟𝑜𝑢𝑝 𝐴𝑑𝑚𝑖𝑛⚠️!",
-          "botAdmin": "𝑃𝑙𝑒𝑎𝑠𝑒 𝑃𝑟𝑜𝑣𝑖𝑑𝑒 𝑚𝑒 𝐴𝑑𝑚𝑖𝑛 𝑅𝑜𝑙𝑒 .❗",
-          "owner": "𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐢𝐬 𝐨𝐧𝐥𝐲 𝐟𝐨𝐫 𝐌𝐲 MAN ⚠️",
-          "group": "𝑻𝒉𝒊𝒔 𝑭𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒔 𝑶𝒏𝒍𝒚 𝑭𝒐𝒓 𝑮𝒓𝒐𝒖𝒑𝒔❗",
-          "private": "𝑻𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒏 𝒐𝒏𝒍𝒚 𝒇𝒐𝒓 𝒕𝒉𝒆 𝐌𝐲 MAN ⚠️",
-          "bot": "𝑻𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒏 𝒐𝒏𝒍𝒚 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒃𝒐𝒕 𝒏𝒖𝒎𝒃𝒆𝒓⚠️",
-          "wait": "𝑷𝒓𝒐𝒄𝒆𝒔𝒔𝒊𝒏𝒈 𝒚𝒐𝒖𝒓 𝒓𝒆𝒒𝒖𝒆𝒔𝒕✅"
+          "success": "නිමයි ✓",
+          "dot": "හායි, ඔබ අදහස් කළේ *-උදව්ද?*\n.. මම පියානෝව සහ කැලිගර්ෆි ඉගෙන ගන්නා අතරතුර මට කරදර කරන්න එපා",
+          "couple_male": "*මම ඔය මෝඩ දේවල් කරන්නේ නැහැ\n මම කවදාවත් ඔබව මිත්‍රයෙක් ලෙස හිතුවේ නැහැ. ඔබ නොවේ. ඔහු නොවේ. ඇය නොවේ.\n සියලු මිනිසුන් මෙවලම් මිස අන් කිසිවක් නොවේ.*",
+          "couple_female": "*මම ඔය මෝඩ දේවල් කරන්නේ නැහැ\n මම කවදාවත් ඔබව මිත්‍රයෙක් ලෙස හිතුවේ නැහැ. ඔබ නොවේ. ඔහු නොවේ. ඇය නොවේ.\n සියලු මිනිසුන් මෙවලම් මිස අන් කිසිවක් නොවේ*",
+          "admin": "මෙම විධානය කණ්ඩායම් පරිපාලක⚠️ සඳහා පමණි!",
+          "botAdmin": "කරුණාකර මට පරිපාලක භූමිකාව ලබා දෙන්න.❗",
+          "owner": "මෙම විධානය මගේ පරිපාලක සඳහා පමණි⚠️",
+          "group": "මෙම විශේෂාංගය කණ්ඩායම් සඳහා පමණි❗",
+          "private": "මෙම විශේෂාංගය මගේ පරිපාලක සඳහා පමණි⚠️",
+          "bot": "ඔහුගේ විශේෂාංගය බොට් අංකය සඳහා පමණි⚠️",
+          "wait": "ඔබගේ ඉල්ලීම ක්‍රියාත්මක කරමින්✅"
       },
       "error": {
-          "text": "*You may come to regret trying to manipulate me.\nNow go get this Error fixed*"
+          "text": "*මාව හසුරුවන්න උත්සාහ කිරීම ගැන ඔබට පසුතැවෙන්න පුළුවන්.\nදැන් ගිහින් මේ දෝෂය නිවැරදි කරගන්න*"
       }
   }
 }
