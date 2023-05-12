@@ -382,7 +382,7 @@ cmd({
 
                         fileName: `${titleYt}.mp4`,
 
-                        caption: `ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ\nʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸`,
+                        caption: `Qᴜᴇᴇɴ-ɴᴇᴛʜᴜ-ᴍᴅ\nᴍʀ.ʜᴀɴꜱᴀᴍᴀʟᴀ`,
 
                         headerType: 4,
 
