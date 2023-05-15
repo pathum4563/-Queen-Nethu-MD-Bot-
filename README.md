@@ -25,3 +25,7 @@
   
  
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@MusicParadise/QUEENNETHU-MD-Qr?v=1) 
+
+    
+    ``` I am in no way responsible for any mistakes you may make !```
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FFFF00&lines=If+you+think+this+bot+is+not+good;deploy+another+bot+you+like;If+you+become+Question+about+bot;join+our+Whatsapp+support+group;to+solve+it+♥️)](https://git.io/typing-svg)
