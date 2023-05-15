@@ -21,7 +21,7 @@
  ### FORK QUEEN NETHU REPO
     
  <p align="left">
-<a href="https://github.com/shashikabot/-Queen-Nethu-MD-Bot-/fork"><img align="center" src="https://i.imgur.com/t1fC4oE.jpeg" alt="Fork and deploy" height="35" width="150" /></a>   
+<a href="https://github.com/shashikabot/-Queen-Nethu-MD-Bot-/fork"><img align="center" src="https://i.ibb.co/S6tDFhx/retina-1708x683-0925-deploy-web-applications-automatically-using-github-webhooks-Waldek-Newsletter-8.png" alt="Fork and deploy" height="35" width="150" /></a>   
     
   ### Simple Method
 
