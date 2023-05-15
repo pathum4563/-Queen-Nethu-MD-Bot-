@@ -18,9 +18,10 @@
 >
 >
 
- ### FORK QUEEN ELISA REPO
+ ### FORK QUEEN NETHU REPO
+    
  <p align="left">
-<a href="https://github.com/DarkMakerofc/Queen-Elisa-MD-V2/fork"><img align="center" src="https://i.imgur.com/t1fC4oE.jpeg" alt="Fork and deploy" height="35" width="150" /></a>   
+<a href="https://github.com/shashikabot/-Queen-Nethu-MD-Bot-/fork"><img align="center" src="https://i.imgur.com/t1fC4oE.jpeg" alt="Fork and deploy" height="35" width="150" /></a>   
     
   ### Simple Method
 
