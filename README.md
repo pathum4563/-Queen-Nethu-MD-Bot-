@@ -11,7 +11,7 @@
 
    <p align="center">
 <a href="https://github.com">
-    <img src="[https://i.ibb.co/zFYBPcQ/IMG-20230226-WA0115.jpg](https://i.ibb.co/5R3pFFp/68747470733a2f2f692e6962622e636f2f68386d484c6a382f3130333930323033362d72656d6f766562672d707265766965.png)">
+    <img src="https://i.ibb.co/5R3pFFp/68747470733a2f2f692e6962622e636f2f68386d484c6a382f3130333930323033362d72656d6f766562672d707265766965.png">
   </a>
   
 
