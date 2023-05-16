@@ -1,15 +1,15 @@
 {
-               "name": "THARU_X-MD",
+               "name": "Queen-Nethu-MD",
                "version": "V1",
-               "description": "Multi device whatsapp bot by SHAKTHI.",
+               "description": "Multi device whatsapp bot by Hansamala.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
                 "start": "pm2 start lib/client.js --deep-monitoring --attach --name THARU_X",
-                "stop": "pm2 stop THARU_X"
+                "stop": "pm2 stop Queen-Nethu"
                 },
-               "author": "SHAKTHI",
+               "author": "Hansamala",
               "dependencies": {
                        "@adiwajshing/baileys": "^4.4.0", 
                        "@adiwajshing/keyed-db": "^0.2.4",
@@ -66,10 +66,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/tharuxbot/THARU_X-BOT"
+                 "url": "git+https://github.com/shashikabot/-Queen-Nethu-MD-Bot-"
                   },
                  "bugs": {
-                 "url": "https://github.com/tharuxbot/THARU_X-BOT"
+                 "url": "https://github.com/shashikabot/-Queen-Nethu-MD-Bot-"
                   },
-                 "homepage": "https://github.com/tharuxbot/THARU_X-BOT"
+                 "homepage": "https://github.com/shashikabot/-Queen-Nethu-MD-Bot-"
                   }
