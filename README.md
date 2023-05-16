@@ -36,7 +36,8 @@
  
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@MusicParadise/QUEENNETHU-MD-Qr?v=1)
     
-    #### ```How To deploy ```
+   ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=#0000FF&lines=###+HOW+TO+DEVOLP+WA+BOT+𝚁𝙴𝙿𝙾.;)](https://git.io/typing-svg)
+   
 1. Fork This repo
 2. Scan Qr Code 
 3. Make Heroku deploy link your own 
