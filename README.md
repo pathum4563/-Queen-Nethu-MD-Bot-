@@ -9,6 +9,7 @@
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FF00FF&lines=WELCOME+TO+QUEEN+NETHU+WA+BOT+𝚁𝙴𝙿𝙾.;CREATED+BY+DRAK+SHADOW+OFC;𝚃𝙷𝙸𝚂+𝙸𝚂+𝙰+𝚂𝙸𝙼𝙿𝙻𝙴+𝙱𝙾𝚃;𝙰𝙽𝙳+𝙸𝙽𝙲𝙻𝚄𝙳𝙴+𝙼𝙾𝚁𝙴+𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂;𝘛𝘏𝘈𝘕𝘒𝘚+𝘍𝘙𝘖+𝘝𝘐𝘚𝘐𝘛𝘐𝘕𝘎+𝘔𝘠+𝘎𝘐𝘛)](https://git.io/typing-svg)
 
+    <p align="center">
   <img src="https://i.ibb.co/5R3pFFp/68747470733a2f2f692e6962622e636f2f68386d484c6a382f3130333930323033362d72656d6f766562672d707265766965.png" width="300" height="300"
 
 # Queen Nethu MD Bot
@@ -27,7 +28,6 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shashikabot/-Queen-Nethu-MD-Bot-)
      </div>
   
-    <p align="center">
 <a href="https://app.uffizzi.com/projects"><img src="https://telegra.ph/file/e464e609e43eb3dfdc144.png" alt="Deploy on Railway" width="170px"></a>
 </p>
  
