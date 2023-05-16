@@ -2,4 +2,4 @@ build:
   docker:
       worker: /lib/Dockerfile
 run:
-   worker: THARU_X-MD start
+   worker: Queen-Nethu-MD start
