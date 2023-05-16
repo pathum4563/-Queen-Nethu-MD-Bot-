@@ -41,7 +41,7 @@
       OWNER_NUMBER="94740203415"
       MONGODB_URI="mongodb+srv://*************"
       SESSION_ID = "Queen-Nethu-MD.herokuapp.com/session"
-      THUMB_IMAGE = "https://i.ibb.co/5BkpL2m/IMG-20230501-WA0022.jpg"
+      THUMB_IMAGE = "https://i.ibb.co/Th3zHtb/Queen-Nethu-MD.jpg"
       port = 5000
       email = "MR>Hansamala"
       global_url = "instagram.com"
@@ -55,9 +55,9 @@
       ANTI_BAD_WORD = "fuck"
       LEVEL_UP_MESSAGE= true
       WELCOME_MESSAGE =  "*Hi,* @user \n*Welcome in* @gname \n*Member count* : @count th"
-      THEME= THARU_X
+      THEME= Queen-Nethu
       WORKTYPE = public
-      PACK_INFO = "SHAKTHI"
+      PACK_INFO = "Hansamala"
       ANTILINK_VALUES = "chat.whatsapp.com"
       
       ```
