@@ -38,7 +38,7 @@
     
    ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F00&lines=HOW+TO+DEVOLP+BY;MADE+BY+MR+SHADOW.)](https://git.io/typing-svg)
    
-    ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FFF00&lines=1.+Fork+This+Repo)](https://git.io/typing-svg)
+   ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FFF00&lines=1.+Fork+This+Repo)](https://git.io/typing-svg)
    
 1. Fork This repo
 2. Scan Qr Code 
