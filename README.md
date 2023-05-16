@@ -36,7 +36,7 @@
  
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@MusicParadise/QUEENNETHU-MD-Qr?v=1)
     
-   ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F000&lines=HOW+TO+DEVOLP+BY;MADE+BY+MR+SHADOW.)](https://git.io/typing-svg)
+   ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FF000&lines=HOW+TO+DEVOLP+BY;MADE+BY+MR+SHADOW.)](https://git.io/typing-svg)
    
 1. Fork This repo
 2. Scan Qr Code 
