@@ -4,7 +4,7 @@
 
   "description": "🔆🧚‍♀️Queen-Nethu-MD has been designed to make things easier and fun while using WhatsApp. 🧚‍♀️🔆",
 
-  "logo": "https://i.ibb.co/5BkpL2m/IMG-20230501-WA0022.jpg",
+  "logo": "https://i.ibb.co/Th3zHtb/Queen-Nethu-MD.jpg",
 
   "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
 
@@ -25,6 +25,8 @@
   "ALIVE_IMG": {
 
     "description": "alive එකට එන්න ඕන image එකක url එකක් දෙන්න",
+    
+    "value": "https://i.ibb.co/Th3zHtb/Queen-Nethu-MD.jpg",
 
      "required" :false
 
