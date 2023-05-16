@@ -28,6 +28,9 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shashikabot/-Queen-Nethu-MD-Bot-)
      </div>
   
+    <p align="center">
+<a href="https://app.uffizzi.com/projects"><img src="https://telegra.ph/file/e464e609e43eb3dfdc144.png" alt="Deploy on Railway" width="170px"></a>
+</p>
  
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@MusicParadise/QUEENNETHU-MD-Qr?v=1)
     
