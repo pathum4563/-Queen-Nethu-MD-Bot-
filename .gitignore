@@ -1,7 +1,0 @@
-*.log
-node_modules/
-*.db
-*-lock.json
-*.lock
-*.env
-plugins/test.js
