@@ -16,12 +16,13 @@ cmd({
         pattern: "plugins",
         category: "owner",
         desc: "Shows list of all externally installed modules",
+        react: "🗃",
         filename: __filename
     },
     async(Void, citel, text, { isCreator }) => {
         const { tlang } = require('../lib')
         if (!isCreator) return citel.reply(tlang().owner)
-        let allmodtext = `*All Installed Modules are:-*\n\n`
+        let allmodtext = `*🗃සියලුම ස්ථාපිත මොඩියුල වේ:-*\n\n`
         allmodtext += await plugins()
         citel.reply(allmodtext)
 
@@ -33,13 +34,14 @@ cmd({
         pattern: "remove",
         category: "owner",
         desc: "removes external modules.",
+        react: "🗑",
         filename: __filename
     },
     async(Void, citel, text,{ isCreator}) => {
         if (!isCreator) return citel.reply(tlang().owner)
         if(text==='all') {
          await plugindb.collection.drop()
-         return citel.reply('Deleted all plugins from Secktor.')
+         return citel.reply('නෙතු රැජිනගෙන් සියලුම ප්ලගීන මකා දැමුවා.🗑')
         }
         let kill = await remove(text.split(" ")[0])
         delete require.cache[require.resolve(__dirname+"/" + text + ".js")];
@@ -53,6 +55,7 @@ cmd({
         pattern: "install",
         category: "owner",
         desc: "Installs external modules..",
+        react: "🔐",
         filename: __filename
     },
     async(Void, citel, text, {isCreator}) => {
