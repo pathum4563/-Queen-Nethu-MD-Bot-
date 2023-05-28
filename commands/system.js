@@ -15,11 +15,12 @@ cmd({
             pattern: "addnote",
             category: "owner",
             desc: "Adds a note on db.",
+            react: "📜",
             filename: __filename
         },
         async(Void, citel, text,{ isCreator }) => {
             if (!isCreator) return citel.reply(tlang().owner)
-            if (!text) return citel.reply("🔍 Please provide me a valid gist url.")
+            if (!text) return citel.reply("🔍 *කරුණාකර මට වලංගු සාරාංශ url එකක් ලබා දෙන්න.*")
             await addnote(text)
             return citel.reply(`New note ${text} added in mongodb.`)
 
@@ -80,13 +81,14 @@ cmd({
             pattern: "unban",
             category: "misc",
             filename: __filename,
+            react: "🕹",
             desc: "Unbans banned user (from using bot)."
         },
         async(Void, citel, text,{ isCreator }) => {
             if (!isCreator) return citel.reply("This command is onlt for my Owner")
             try {
                 let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
-                if (!users) return citel.reply("Please mention any user.❌")
+                if (!users) return citel.reply("*කරුණාකර ඕනෑම පරිශීලකයෙකු සඳහන් කරන්න.❌*")
                 let pushnamer = Void.getName(users);
                 sck1.findOne({ id: users }).then(async(usr) => {
                     if (!usr) {
@@ -100,7 +102,7 @@ cmd({
                     }
                 })
             } catch {
-                return citel.reply("Please mention any user.❌")
+                return citel.reply("*කරුණාකර ඕනෑම පරිශීලකයෙකු සඳහන් කරන්න.❌*")
             }
 
 
