@@ -97,7 +97,7 @@ Secktor.cmd({
             pattern: "list",
             desc: "list menu",
             category: "general",
-            react: "✅"
+            react: "🧚‍"
         },
         async(Void, citel) => {
             const { commands } = require('../lib');
@@ -131,7 +131,7 @@ Secktor.cmd({
         pattern: "owner",
         desc: "To check ping",
         category: "general",
-        react: "💜",
+        react: "🧛‍♀️",
         filename: __filename
     },
     async(Void, citel) => {
