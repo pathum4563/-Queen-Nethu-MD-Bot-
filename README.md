@@ -46,3 +46,9 @@
 
    
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FFFFFF000&lines=If+you+think+this+bot+is+not+good;deploy+another+bot+you+like;If+you+become+Question+about+bot;join+our+Whatsapp+support+group;to+solve+it+♥️)](https://git.io/typing-svg)
+
+  <p align="center">
+<a href="https://github.com">
+    <img src="https://telegra.ph/file/d229929fd0e975d64010c.jpg">
+  </a>
+  
