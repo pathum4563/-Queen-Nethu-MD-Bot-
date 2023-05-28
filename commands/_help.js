@@ -55,17 +55,17 @@ Secktor.cmd({
                 let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
                 str +=
                     '```' + `│ ╭───────✧🧚‍♀️❁🧚‍♀️✧───────«
-│🧚‍♀️│ User:- ${citel.pushName}
-│🧚‍♀️│ Theme:- ${tlang().title}
-│🧚‍♀️│ Prefix:- [ ${prefix} ]
-│🧚‍♀️│ Owner:- ${Config.ownername}
-│🧚‍♀️│ Plugins:- ${commands.length}
-│🧚‍♀️│ Users:- ${total}
-│🧚‍♀️│ Uptime:- ${runtime(process.uptime())}
-│🧚‍♀️│ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-│🧚‍♀️│ Time:- ${time}
-│🧚‍♀️│ Date:- ${date}
-│  ╰───────✧❁✧───────»
+🧚‍♀️╿ U͒s͒e͒r͒:- ${citel.pushName}
+🧚‍♀️╿ T͒h͒e͒m͒e͒:- ${tlang().title}
+🧚‍♀️╿ P͒r͒e͒f͒i͒x͒:- [ ${prefix} ]
+🧚‍♀️╿ O͒w͒n͒e͒r͒:- ${Config.ownername}
+🧚‍♀️╿ P͒l͒u͒g͒i͒n͒s͒:- ${commands.length}
+🧚‍♀️╿ U͒s͒e͒r͒s͒:- ${total}
+🧚‍♀️╿ U͒p͒t͒i͒m͒e͒:- ${runtime(process.uptime())}
+🧚‍♀️╿ M͒i͒m͒:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+🧚‍♀️╿ T͒i͒m͒e͒:- ${time}
+🧚‍♀️╿ D͒a͒t͒e͒:- ${date}
+🧚‍♀️╿╰───────✧❁✧───────»
 ╰───────────────⊷\n
 ` + '```'
                 str += `╭───『 ` + fancytext('Commands', 57) + `』──◆`
@@ -131,7 +131,7 @@ Secktor.cmd({
         pattern: "owner",
         desc: "To check ping",
         category: "general",
-        react: "🧛‍♀️",
+        react: "👩‍🔧",
         filename: __filename
     },
     async(Void, citel) => {
@@ -168,7 +168,7 @@ Secktor.cmd({
     pattern: "file",
     desc: "to get extact name where that command is in repo.\nSo user can edit that.",
     category: "general",
-    react: "🧛‍♀️",
+    react: "👩‍🔧",
     filename: __filename
 },
 async(Void, citel, text) => {
