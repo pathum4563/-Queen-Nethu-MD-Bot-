@@ -16,6 +16,7 @@ cmd(
   {
     pattern: "delttt",
     desc: "deletes TicTacToe running session.",
+    react: "🎭",
     filename: __filename,
     category: "game",
   },
@@ -25,7 +26,7 @@ cmd(
         const participants = citel.isGroup ? await groupMetadata.participants : "";
         const groupAdmins = await getAdmin(Void, citel)
         const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
-        if(!isAdmins && !isCreator) return citel.reply('This command is only for Group Admin and my owner.')
+        if(!isAdmins && !isCreator) return citel.reply('*🎮මෙම විධානය කණ්ඩායම් පරිපාලක සහ මගේ හිමිකරු සඳහා පමණි.🎮*')
          this.game = this.game ? this.game : false
          if (
         Object.values(this.game).find(
@@ -34,9 +35,9 @@ cmd(
         )
       ) {
         delete this.game
-        return citel.reply(`_Successfully Deleted running TicTacToe game._`);
+        return citel.reply(`*_🎭TicTacToe ධාවන ක්‍රීඩාව සාර්ථකව මකා දමන ලදී.🎭_*`);
         } else {
-              return citel.reply(`No TicTacToe game🎮 is running.`)
+              return citel.reply(`*_🎭TicTacToe ක්‍රීඩාවක් ක්‍රියාත්මක නොවේ🎮._*`)
                     
         }
   })
@@ -45,6 +46,7 @@ cmd(
   {
     pattern: "ttt",
     desc: "Play TicTacToe",
+    react: "🤹‍♀️",
     filename: __filename,
     category: "game",
   },
@@ -61,7 +63,7 @@ cmd(
             [room.game.playerX, room.game.playerO].includes(citel.sender)
         )
       )
-        return citel.reply("_A game is already going on_");
+        return citel.reply("*_🤹‍♀️දැනටමත් ක්රීඩාවක් සිදුවෙමින් පවතී🤹‍♀️..._*");
       let room = Object.values(this.game).find(
         (room) =>
           room.state === "WAITING" && (text ? room.name === text : true)
@@ -106,7 +108,7 @@ ${arr.slice(6).join("  ")}
           state: "WAITING",
         };
         if (text) room.name = text;
-        citel.reply("_Waiting for player,use .ttt to join this game._ ");
+        citel.reply("*_🤹‍♀️ක්‍රීඩකයා සඳහා රැඳී සිටිමින්, මෙම ක්‍රීඩාවට සම්බන්ධ වීමට .ttt භාවිත කරන්න🤹‍♀️._*");
         this.game[room.id] = room;
       }
     }
@@ -151,10 +153,10 @@ cmd(
       ) {
         citel.reply(
           {
-            "-3": "The game is over.",
-            "-2": "Invalid",
-            "-1": "_Invalid Position_",
-            0: "_Invalid Position_",
+            "-3": "_🎭සෙල්ලම ඉවරයි.🎭_",
+            "-2": "_🤺වලංගු නැත🤺_",
+            "-1": "_🤺වලංගු නොවන ස්ථානය🤺_",
+            0: "_🤺වලංගු නොවන ස්ථානය🤺_",
           }[ok]
         );
         return !0;
@@ -188,9 +190,9 @@ ${arr.slice(3, 6).join("  ")}
 ${arr.slice(6).join("  ")}
 ${
   isWin
-    ? `@${winner.split("@")[0]} Won ! and got 2000💎 in wallet🤑`
+    ? `@${winner.split("@")[0]} දිනුවා! සහ පසුම්බියේ 2000💎 ලැබුණා🤑`
     : isTie
-    ? `Game Tied,well done to both of you players.`
+    ? `ක්‍රීඩාව ගැටගැසී ඇත, ඔබ ක්‍රීඩකයන් දෙදෙනාටම හොඳින් සිදු විය.`
     : `Current Turn ${["❌", "⭕"][1 * room.game._currentTurn]} @${
         room.game.currentTurn.split("@")[0]
       }`
@@ -231,15 +233,15 @@ cmd({ pattern: "ship" , category: "fun" }, async(Void, citel, text) => {
     async function couple(percent) {
          var text;
         if (percent < 25) {
-            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\tThere's still time to reconsider your choices`
+            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\tඔබේ තේරීම නැවත සලකා බැලීමට තවමත් කාලය තිබේ.🖇`
         } else if (percent < 50) {
-            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\t Good enough, I guess! 💫`
+            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\t ප්රමාණවත් තරම් හොඳයි, මම හිතන්නේ! 💫`
         } else if (percent < 75) {
-            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\t\tStay together and you'll find a way ⭐️`
+            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\t\tඑකට ඉන්න, එවිට ඔබට මාර්ගයක් සොයාගත හැකිය ⭐️`
         } else if (percent < 90) {
-            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\tAmazing! You two will be a good couple 💖 `
+            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\tඅරුම පුදුම! ඔබ දෙදෙනා හොඳ යුවළක් වනු ඇත 💖 `
         } else {
-            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\tYou two are fated to be together 💙`
+            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\tඔබ දෙදෙනා එකට සිටීමට වාසනාවන්තයි 💙`
         }
         return text
         }
@@ -250,12 +252,12 @@ cmd({ pattern: "ship" , category: "fun" }, async(Void, citel, text) => {
        } else {
        shiper = members[Math.floor(Math.random() * members.length)]
        }
-       let caption = `\t❣️ *Matchmaking...* ❣️ \n`
+       let caption = `\t❣️ *ගැලපීම...* ❣️ \n`
         caption += `\t\t✯────────────────────✯\n`
         caption += `@${citel.sender.split('@')[0]}  x  @${shiper.split('@')[0]}\n`
         caption += `\t\t✯────────────────────✯\n`
         caption += await couple(percentage)
-        if(citel.sender.split('@')[0]===shiper.split('@')[0]) return citel.reply('```'+'Wait... What!!!,You wanna do matchmaking with yourself'+'```')
+        if(citel.sender.split('@')[0]===shiper.split('@')[0]) return citel.reply('```'+'ඉන්න... මොකක්ද!!!,ඔබට ඔබ සමඟ ගැලපීමක් කිරීමට අවශ්‍යයි'+'```')
         await Void.sendMessage(citel.chat,{text: caption,mentions: [citel.sender,shiper]},{quoted:citel})
    }
 )
