@@ -54,14 +54,14 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
+        let { data } = await axios.get('https://api.github.com/repos/shashikabot/-Queen-Nethu-MD-Bot-')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* secktorbot.tech/repo
-*Group:* secktorbot.tech/support
+*🍁 Repo:* shashikabot.tech/repo
+*Group:* shashikabot.tech/support
 *Deploy Your Own:*-
- SecktorBot.tech/youtube`
+ www.youtube.com`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
