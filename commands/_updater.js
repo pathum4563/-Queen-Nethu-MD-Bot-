@@ -16,11 +16,12 @@ const { tlang, Config, prefix,cmd } = require('../lib')
 cmd({
             pattern: "update",
             desc: "Shows repo\'s refreshed commits.",
+            react: "🆕",
             category: "misc",
             filename: __filename
         },
         async(Void, citel, text,{ isCreator }) => {
-            if (!isCreator) return citel.reply('This command is only for my owner')
+            if (!isCreator) return citel.reply('*💠මෙම විධානය මගේ හිමිකරු සඳහා පමණි💠*')
             let commits = await DB.syncgit()
             if (commits.total === 0) {
                 citel.reply(`Hey ${citel.pushName}. You have latest version installed.`)
