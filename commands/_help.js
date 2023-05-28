@@ -168,7 +168,7 @@ Secktor.cmd({
     pattern: "file",
     desc: "to get extact name where that command is in repo.\nSo user can edit that.",
     category: "general",
-    react: "✨",
+    react: "🧛‍♀️",
     filename: __filename
 },
 async(Void, citel, text) => {
