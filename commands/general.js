@@ -17,7 +17,7 @@ cmd({
         pattern: "chat",
         desc: "chat with an AI",
         category: "general",
-        use: '<Hii,Secktor>',
+        use: '<Hii,Queen-Nethu>',
         filename: __filename,
     },
     async(Void, citel,text) => {
@@ -69,7 +69,7 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
+                    title: "Queen-Nethu-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
