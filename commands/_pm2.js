@@ -15,12 +15,13 @@ cmd({
         pattern: "restart",
         desc: "To restart bot",
         category: "tools",
+        react: "♻️",
         filename: __filename
     },
     async(Void, citel,text,{ isCreator }) => {
    if (!isCreator) return citel.reply(tlang().owner)
             const { exec } = require("child_process")
-            citel.reply('Restarting')
+            citel.reply('*♻️නැවත ආරම්භ කිරීම♻️*')
             exec('pm2 restart all')
     }
 );
