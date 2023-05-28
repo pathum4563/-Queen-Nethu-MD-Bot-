@@ -34,7 +34,7 @@ cmd({
             desc: "text to speech.",
             category: "downloader",
             filename: __filename,
-            use: '<Hii,this is Secktor>',
+            use: '<Hii,this is Queen Nethu>',
         },
         async(Void, citel, text) => {
             if (!text) return citel.reply('Please give me Sentence to change into audio.')
@@ -74,7 +74,7 @@ cmd({
                 listSerch.push({
                     title: i.title,
                     rowId: `${prefix}ytmp4 ${i.url}`,
-                    description: `Secktor / ${i.timestamp}`
+                    description: `Queen Nethu / ${i.timestamp}`
                 })
             }
             const sections = [
