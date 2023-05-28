@@ -23,7 +23,7 @@ Secktor.cmd({
             alias: ["menu"],
             desc: "Help list",
             category: "general",
-            react: "✨",
+            react: "🧚‍♀️",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -54,18 +54,18 @@ Secktor.cmd({
                 let total = await sck1.countDocuments()
                 let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
                 str +=
-                    '```' + `│ ╭───────✧❁✧───────«
-│ │ User:- ${citel.pushName}
-│ │ Theme:- ${tlang().title}
-│ │ Prefix:- [ ${prefix} ]
-│ │ Owner:- ${Config.ownername}
-│ │ Plugins:- ${commands.length}
-│ │ Users:- ${total}
-│ │ Uptime:- ${runtime(process.uptime())}
-│ │ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-│ │ Time:- ${time}
-│ │ Date:- ${date}
-│ ╰───────✧❁✧───────»
+                    '```' + `│ ╭───────✧🧚‍♀️❁🧚‍♀️✧───────«
+│🧚‍♀️│ User:- ${citel.pushName}
+│🧚‍♀️│ Theme:- ${tlang().title}
+│🧚‍♀️│ Prefix:- [ ${prefix} ]
+│🧚‍♀️│ Owner:- ${Config.ownername}
+│🧚‍♀️│ Plugins:- ${commands.length}
+│🧚‍♀️│ Users:- ${total}
+│🧚‍♀️│ Uptime:- ${runtime(process.uptime())}
+│🧚‍♀️│ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+│🧚‍♀️│ Time:- ${time}
+│🧚‍♀️│ Date:- ${date}
+│  ╰───────✧❁✧───────»
 ╰───────────────⊷\n
 ` + '```'
                 str += `╭───『 ` + fancytext('Commands', 57) + `』──◆`
