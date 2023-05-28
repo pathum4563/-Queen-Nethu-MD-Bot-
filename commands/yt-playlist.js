@@ -19,7 +19,7 @@ cmd({
                 return `${Math.floor(Math.random() * 10000)}${ext}`;
             };
             if (!text) {
-                citel.reply(`❌Please provide me a url`);
+                citel.reply(`❌කරුණාකර මට url එකක් දෙන්න`);
                 return;
             }
 let urlYtt = text.split('=')[1]
@@ -57,7 +57,7 @@ yts( opts, async function ( err, playlist ) {
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: ` 🧚‍♀️ Title : ${titleYt}\n 🧚‍♀️ File Size : ${fileSizeInMegabytes} MB`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
@@ -73,7 +73,7 @@ yts( opts, async function ( err, playlist ) {
                     }
                    Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
                 } else {
-                    citel.reply(`❌ File size bigger than ${dlsize}mb.`);
+                    citel.reply(`❌ ගොනු ප්‍රමාණය වඩා විශාලයි.. ${dlsize}mb.`);
                 }
 
                 fs.unlinkSync(`./${randomName}`);
