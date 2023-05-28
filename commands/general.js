@@ -54,7 +54,7 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/shashikabot/-Queen-Nethu-MD-Bot-')
+        let { data } = await axios.get('https://github.com/shashikabot/-Queen-Nethu-MD-Bot-.git')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
