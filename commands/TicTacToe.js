@@ -17,6 +17,7 @@ cmd(
     pattern: "delttt",
     desc: "deletes TicTacToe running session.",
     filename: __filename,
+    react: "❌,⭕"
     category: "game",
   },
   async (Void,citel,text,{isCreator}) => {
