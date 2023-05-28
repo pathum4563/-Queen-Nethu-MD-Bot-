@@ -58,9 +58,9 @@ cmd({
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* shashikabot.tech/repo
-*Group:* shashikabot.tech/support
-*Deploy Your Own:*-
+*🍁 Github:* https://github.com/shashikabot/-Queen-Nethu-MD-Bot-.git
+*🧚‍♀️ Support Group:* https://chat.whatsapp.com/FIDbYbS7zCv9gssLWzTL3y
+*🧛‍♂️ Deploy Your Own:*-
  www.youtube.com`
         let buttonMessaged = {
             image: { url: await botpic() },
