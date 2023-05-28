@@ -20,6 +20,7 @@ cmd({
             pattern: "imdb",
             category: "search",
             desc: "Sends image of asked Movie/Series.",
+            react: "🧮",
             use: '<text>',
             filename: __filename,
         },
@@ -62,11 +63,12 @@ cmd({
             pattern: "weather",
             category: "search",
             desc: "Sends weather info about asked place.",
+            react: "🌍",
             use: '<location>',
             filename: __filename,
         },
         async(Void, citel, text) => {
-            if (!text) return citel.reply("Give me location.Baka!!");
+            if (!text) return citel.reply("මට ලොකේෂන් දෙන්න...සර්!!");
             let wdata = await axios.get(
                 `https://api.openweathermap.org/data/2.5/weather?q=${text}&units=metric&appid=060a6bcfa19809c2cd4d97a212b19273&language=en`
             );
