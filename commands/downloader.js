@@ -150,13 +150,41 @@ cmd({
                 let search = await yts(text);
             citel.react("✅");
                 let buttonMessage = {
-                        audio: fs.readFileSync(`./${randomName}`),
-                        jpegThumbnail: log0,
-                        mimetype: 'audio/mp4',
-                        fileName: `${titleYt}.mp4`,
-                        caption: `☞ó ͜つò☞ 𝓠𝓾𝓮𝓮𝓷 𝓝𝓮𝓽𝓱𝓾 𝓜𝓓`,
-                        headerType: 4,
-                    }
+                        image: {
+
+                    url: anu.thumbnail,
+
+                },
+
+                caption: `
+
+╭───────────────◆
+
+│⿻ ${tlang().title} 
+
+│  *Youtube Player* ✨
+
+│⿻ *Title:* ${anu.title}
+
+│⿻ *Duration:* ${anu.timestamp}
+
+│⿻ *Viewers:* ${anu.views}
+
+│⿻ *Uploaded:* ${anu.ago}
+
+│⿻ *Author:* ${anu.author.name}
+
+╰────────────────◆
+
+⦿ *Url* : ${anu.url}
+
+`,
+
+                footer: tlang().footer,
+
+                headerType: 4,
+
+            }:
                     return Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
                 } else {
                     citel.reply(`*The limit has been exceeded.*❗`);
