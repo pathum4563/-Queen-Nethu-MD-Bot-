@@ -18,6 +18,7 @@ cmd({
         desc: "chat with an AI",
         category: "general",
         use: '<Hii,Queen-Nethu>',
+        react: "🎐",
         filename: __filename,
     },
     async(Void, citel,text) => {
@@ -51,6 +52,7 @@ cmd({
         alias: ["git", "sc", "script"],
         desc: "Sends info about repo.",
         category: "general",
+        react: "🎊",
         filename: __filename,
     },
     async(Void, citel) => {
@@ -60,8 +62,8 @@ cmd({
 *🍽️ Forks:* ${data.forks_count} forks
 *🍁 Github:* https://github.com/shashikabot/-Queen-Nethu-MD-Bot-.git
 *🧚‍♀️ Support Group:* https://chat.whatsapp.com/FIDbYbS7zCv9gssLWzTL3y
-*🧛‍♂️ Deploy Your Own:*-
- www.youtube.com`
+*🧛‍♂️ Deploy Your Own:*- MR>Hansamala
+*☎️ Owner Number:*- 94781708673`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -90,6 +92,7 @@ cmd({
         alias: ["about"],
         desc: "To check bot status",
         category: "general",
+        react: "🎉",
         filename: __filename,
     },
     async(Void, citel) => {
@@ -103,7 +106,7 @@ cmd({
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 1.0.0
 *👤Owner:*  ${Config.ownername}
-*Powered by ${tlang().title}*
+*🧬Powered by ${tlang().title}*
 `;
         let buttonMessaged = {
             image: {
