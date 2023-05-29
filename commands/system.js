@@ -134,13 +134,14 @@ cmd({
 cmd({
             pattern: "trt",
             category: "misc",
+            react: "📨",
             filename: __filename,
             desc: "Translate\'s given text in desird language."
         },
         async(Void, citel, text) => {
             const translatte = require("translatte");
-            if (!citel.quoted) return citel.reply("*Please reply to any message.*");
-            if (!citel.quoted) return citel.reply(`Please mention or give tex.`);
+            if (!citel.quoted) return citel.reply("*කරුණාකර ඕනෑම පණිවිඩයකට පිළිතුරු දෙන්න.*");
+            if (!citel.quoted) return citel.reply(`කරුණාකර සඳහන් කරන්න හෝ ටෙක්ස් දෙන්න.`);
             let textt = citel.quoted.text;
             whole = await translatte(textt, {
                 from: text[1] || "auto",
@@ -156,6 +157,7 @@ cmd({
 cmd({
             pattern: "shell",
             category: "owner",
+            react: "🎆",
             filename: __filename,
             desc: "Runs command in Heroku(server) shell."
         },
@@ -174,6 +176,7 @@ cmd({
 cmd({
             pattern: "eval",
             category: "owner",
+            react: "🗑",
             filename: __filename,
             desc: "Runs js code on node server."
         },
@@ -193,6 +196,7 @@ cmd({
 cmd({
             pattern: "delnote",
             category: "owner",
+            react: "🗑",
             filename: __filename,
             desc: "Deletes note from db."
         },
@@ -200,7 +204,7 @@ cmd({
             const { tlang } = require('../lib/scraper')
             if (!isCreator) return citel.reply(tlang().owner)
             await delnote(text.split(" ")[0])
-             return citel.reply(`Id: ${text.split(" ")[0]}\'s note has been deleted from mongodb.`)
+             return citel.reply(`Id: ${text.split(" ")[0]}\'s 🗑mongodb වෙතින් සටහන මකා ඇත🗑.`)
 
         }
     )
@@ -208,6 +212,7 @@ cmd({
 cmd({
             pattern: "delallnotes",
             category: "owner",
+            react: "🗑",
             filename: __filename,
             desc: "Deletes all notes from db."
         },
@@ -215,7 +220,7 @@ cmd({
             const { tlang } = require('../lib/scraper')
             if (!isCreator) return citel.reply(tlang().owner)
             await delallnote()
-             return citel.reply(`All notes deleted from mongodb.`)
+             return citel.reply(`*සියලුම සටහන් mongodb වෙතින් මකා ඇත.🗑*`)
 
         }
     )
@@ -223,6 +228,7 @@ cmd({
 cmd({
             pattern: "ban",
             category: "owner",
+            react: "💣",
             filename: __filename,
             desc: "Bans user from using bot."
         },
@@ -230,7 +236,7 @@ cmd({
             if (!isCreator) return citel.reply(tlang().owner)
             try {
                 let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
-                if (!users) return citel.reply(`❌ Please mention any user ${tlang().greet}.`)
+                if (!users) return citel.reply(`❌ කරුණාකර ඕනෑම පරිශීලකයෙකු සඳහන් කරන්න ${tlang().greet}.`)
                 let pushnamer = Void.getName(users);
                 sck1.findOne({ id: users }).then(async(usr) => {
                     if (!usr) {
@@ -244,7 +250,7 @@ cmd({
                 })
             } catch (e) {
                 console.log(e)
-                return citel.reply("Please mention any user.❌ ")
+                return citel.reply("Pකරුණාකර ඕනෑම පරිශීලකයෙකු සඳහන් කරන්න.❌ ")
             }
 
 
@@ -292,6 +298,7 @@ _Powered by ${Config.ownername}_
 cmd({
         pattern: "allnotes",
         category: "owner",
+        react: "🧾",
         filename: __filename,
         desc: "Shows list of all notes."
     },
@@ -299,7 +306,7 @@ cmd({
         const { tlang } = require('../lib')
         if (!isCreator) return citel.reply(tlang().owner)
         const note_store = new Array()
-        let leadtext = `All Available Notes are:-\n\n`
+        let leadtext = `*🧾පවතින සියලුම සටහන් වේ* :-\n\n`
         leadtext += await allnotes()
         return citel.reply(leadtext)
 
