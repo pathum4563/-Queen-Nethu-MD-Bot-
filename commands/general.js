@@ -134,7 +134,7 @@ cmd({
 )
 //---------------------------------------------------------------------------
 cmd({
-      pattern: 'welcome$',
+    pattern: 'welcome$',
     use: 'group',
     fromMe: true,
     desc: Lang.WELCOME_DESC
@@ -145,9 +145,9 @@ cmd({
     } else {
         await message.sendReply(Lang.WELCOME_ALREADY_SETTED + hg.message);
     }
+     }
 }));
-//---------------------------------------------------------------------------
-cmd({
+Module({
     pattern: 'welcome (.*)',
     fromMe: true,
     use: 'group',
@@ -159,7 +159,10 @@ cmd({
     }
     await sql.setMessage(message.jid, 'welcome', match[1].replace(/&/g, '\n'));
     return await message.sendReply(Lang.WELCOME_SETTED)
-}));
+ });
+
+    }
+)
 //---------------------------------------------------------------------------
 cmd({
     pattern: 'goodbye$',
@@ -173,9 +176,9 @@ cmd({
     } else {
         await message.send(Lang.GOODBYE_ALREADY_SETTED + hg.message);
     }
+    }
 }));
-//---------------------------------------------------------------------------
-cmd({
+Module({
     pattern: 'goodbye (.*)',
     fromMe: true,
     dontAddCommandList: true,
@@ -187,4 +190,7 @@ cmd({
     }
     await sql.setMessage(message.jid, 'goodbye', match[1].replace(/#/g, '\n'));
     return await message.send(Lang.GOODBYE_SETTED)
-}));
+ });
+
+    }
+)
