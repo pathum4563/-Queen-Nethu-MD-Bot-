@@ -1,21 +1,16 @@
 /*
 
-░█▀▀█ ░█─░█ ░█▀▀▀ ░█▀▀▀ ░█▄─░█ 　 ░█▄─░█ ▀█▀ ░█─── ░█─░█ 　 ░█▀▄▀█ ░█▀▀▄ 
-░█─░█ ░█─░█ ░█▀▀▀ ░█▀▀▀ ░█░█░█ 　 ░█░█░█ ░█─ ░█─── ░█─░█ 　 ░█░█░█ ░█─░█ 
-─▀▀█▄ ─▀▄▄▀ ░█▄▄▄ ░█▄▄▄ ░█──▀█ 　 ░█──▀█ ▄█▄ ░█▄▄█ ─▀▄▄▀ 　 ░█──░█ ░█▄▄▀
+░█▀▀█ ░█─░█ ░█▀▀▀ ░█▀▀▀ ░█▄─░█
+░█─░█ ░█─░█ ░█▀▀▀ ░█▀▀▀ ░█░█░█
+─▀▀█▄ ─▀▄▄▀ ░█▄▄▄ ░█▄▄▄ ░█──▀█
 
-Whatsapp Bot  By @Janiya
+Whatsapp Bot  By MR>Hansamal
 
-❥WHATSAPP - https://wa.me/94767438882
+❥WHATSAPP - https://wa.me/94781708673
 
-❥SUPPORT - https://t.me/QueenNilu
+❥SUPPORT - 
 
-❥ YOUTUBE - https://youtube.com/c/Janithsadanuwan 
-
-❤️Thanks For All Helpers ❤️
-
-@nimesh-official - for Helps
-@adiwajshing -For Web Api
+❥ YOUTUBE - https://youtube.com/ 
 
 
 */
