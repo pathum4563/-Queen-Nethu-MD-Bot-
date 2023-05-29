@@ -30,6 +30,7 @@ function __lobz(){const H=['R53FWbciV9','reply','rbot_18407','\x5c(\x20*\x5c)','
     )
     //---------------------------------------------------------------------------
 cmd({
+ 
             pattern: "tts",
             desc: "text to speech.",
             category: "downloader",
@@ -198,7 +199,7 @@ cmd({
                         mimetype: 'audio/mp4',
 
                         fileName: `${titleYt}.mp4`,
-
+   
                         caption: `Qᴜᴇᴇɴ-ɴᴇᴛʜᴜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴍʀ.ʜᴀɴꜱᴀᴍᴀʟᴀ`,
 
                         headerType: 4,
