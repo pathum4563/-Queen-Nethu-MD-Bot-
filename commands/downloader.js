@@ -58,7 +58,7 @@ cmd({
     )
 //---------------------------------------------------------------------------
 cmd({
-        pattern: "song",
+        pattern: "song2",
         desc: "Downloads audio by yt link.",
         category: "downloader",
         react: "🎶",
