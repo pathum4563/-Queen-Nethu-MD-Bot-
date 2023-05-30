@@ -20,10 +20,10 @@ const Secktor = require('../lib/commands')
     //---------------------------------------------------------------------------
 Secktor.cmd({
             pattern: "help",
-            alias: ["menu"],
+            alias: ["menu ,මෙනු"],
             desc: "Help list",
             category: "general",
-            react: "✨",
+            react: "🧚",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -55,16 +55,16 @@ Secktor.cmd({
                 let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
                 str +=
                     '```' + `│ ╭───────✧❁✧───────«
-│ │ User:- ${citel.pushName}
-│ │ Theme:- ${tlang().title}
-│ │ Prefix:- [ ${prefix} ]
-│ │ Owner:- ${Config.ownername}
-│ │ Plugins:- ${commands.length}
-│ │ Users:- ${total}
-│ │ Uptime:- ${runtime(process.uptime())}
-│ │ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-│ │ Time:- ${time}
-│ │ Date:- ${date}
+│ │ 🧚User:- ${citel.pushName}
+│ │ 🧚Theme:- ${tlang().title}
+│ │ 🧚Prefix:- [ ${prefix} ]
+│ │ 🧚Owner:- ${Config.ownername}
+│ │ 🧚Plugins:- ${commands.length}
+│ │ 🧚Users:- ${total}
+│ │ 🧚Uptime:- ${runtime(process.uptime())}
+│ │ 🧚Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+│ │ 🧚Time:- ${time}
+│ │ 🧚Date:- ${date}
 │ ╰───────✧❁✧───────»
 ╰───────────────⊷\n
 ` + '```'
@@ -76,7 +76,7 @@ Secktor.cmd({
 ┃  ╰┬──────✧❁✧───────»
 ┃  ┌┤\n`
                     for (const plugins of cmds[category]) {
-                        str += `┃  │ ✭ ${plugins}\n`
+                        str += `┃ 🧚 │ 🪄 ${plugins}\n`
                     }
                     str += `┃  ╰─────────────◆`
                 }
