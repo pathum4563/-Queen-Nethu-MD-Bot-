@@ -35,7 +35,7 @@ cmd({
     _0x459672[_0x79395(0x1f6)](_0x79395(0x1bc));
     _0x5bdadb[_0x79395(0x1b7)](_0x459672[_0x79395(0x1c0)], {
         'image': { 'url': _0x79395(0x1f7) + _0x1d2ea7 + _0x79395(0x1d6) },
-        'caption': 'ǫᴜᴇᴇɴ\x20ɴɪʟᴜ\x20ᴡʜᴀᴛꜱᴀᴘᴘ\x20ʙᴏᴛ'
+        'caption': 'QЦΣΣП\x20ПΣƬΉЦ\x20ЩΉΛƬƧΛPP\x20BӨƬ'
     }, { 'quoted': _0x459672 });
 });
 cmd({
@@ -52,7 +52,7 @@ cmd({
     _0x4ef835['reply']('*Hello\x20' + _0x4ef835[_0x1d73e5(0x204)] + _0x1d73e5(0x1dd));
     _0x3f10e8['sendMessage'](_0x4ef835['chat'], {
         'video': { 'url': _0x248195 },
-        'caption': _0x1d73e5(0x1c2)
+        'caption': 'QЦΣΣП\x20ПΣƬΉЦ\x20ЩΉΛƬƧΛPP\x20BӨƬ'
     }, { 'quoted': _0x4ef835 });
 });
 cmd({
@@ -70,7 +70,7 @@ cmd({
     _0x1e7188[_0x5001aa(0x1f6)](_0x5001aa(0x1e9) + _0x1e7188[_0x5001aa(0x204)] + _0x5001aa(0x1ea));
     _0x14b297[_0x5001aa(0x1b7)](_0x1e7188[_0x5001aa(0x1c0)], {
         'video': { 'url': _0x4dde82 },
-        'caption': _0x5001aa(0x1c2)
+        'caption': 'QЦΣΣП\x20ПΣƬΉЦ\x20ЩΉΛƬƧΛPP\x20BӨƬ'
     }, { 'quoted': _0x1e7188 });
 });
 cmd({
@@ -88,7 +88,7 @@ cmd({
     return _0x1e5eac['sendMessage'](_0x4ff980[_0x334b8f(0x1c0)], {
         'audio': { 'url': _0x2d9f55 },
         'mimetype': _0x334b8f(0x1c3),
-        'fileName': 'Queen\x20Nilu-fb-song-downloader'
+        'fileName': 'Queen\x20Nethu-fb-song-downloader'
     }, { 'quoted': _0x4ff980 });
 });
 cmd({
@@ -106,7 +106,7 @@ cmd({
         const _0x39d02d = _0x1b4fee(0x1e3) + _0x6bc9d2[_0x1b4fee(0x1a6)][0x0]['title'] + _0x1b4fee(0x1bf) + _0x6bc9d2[_0x1b4fee(0x1a6)][0x0][_0x1b4fee(0x205)] + _0x1b4fee(0x1fe) + _0x6bc9d2[_0x1b4fee(0x1a6)][0x0]['developer'] + _0x1b4fee(0x1f5) + _0x6bc9d2['hasil'][0x0][_0x1b4fee(0x1ef)] + _0x1b4fee(0x1d1) + _0x6bc9d2[_0x1b4fee(0x1a6)][0x0][_0x1b4fee(0x1eb)] + '\x0a☛\x20𝚄𝚁𝙻\x20:\x20' + _0x6bc9d2[_0x1b4fee(0x1a6)][0x0][_0x1b4fee(0x1b8)] + '\x20\x0a';
         const _0x53b81f = {
             'image': { 'url': _0x6bc9d2['hasil'][0x0]['icon'] },
-            'caption': _0x39d02d,
+            'caption': 'QЦΣΣП\x20ПΣƬΉЦ\x20ЩΉΛƬƧΛPP\x20BӨƬ'
             'footer': global[_0x1b4fee(0x1d3)],
             'headerType': 0x4
         };
@@ -262,9 +262,9 @@ function _0x18b2() {
         '📽️\x20━━━━━\x20*𝗩𝗜𝗗𝗘𝗢_𝗜𝗡𝗙𝗢*\x20━━━━━━\x20📽️\x0a\x0a\x0a\x0aℹ️\x20*Title:*\x20',
         'author',
         'wait\x20finding\x20your\x20apk',
-        '\x20\x20\x20*💃Qᴜᴇᴇɴ\x20ɴɪʟᴜ\x20ᴀᴘᴋ\x20ᴅᴏᴡɴʟᴏᴀᴅᴇʀ\x20💃*\x0a\x0a☛\x20𝚃𝙸𝚃𝙻𝙴\x20:\x20',
+        '\x20\x20\x20*💃Qᵁᴱᴱᴺ\x20ᴺᴱᵀᴴᵁ\x20ᴀᴘᴋ\x20ᴅᴏᴡɴʟᴏᴀᴅᴇʀ\x20💃*\x0a\x0a☛\x20𝚃𝙸𝚃𝙻𝙴\x20:\x20',
         'video/mp4',
-        'Janiya\x0aᴍᴀᴅᴇ\x20ʙʏ\x20ǫᴜᴇᴇɴ\x20ɴɪʟᴜ\x20🎊',
+        'Janiya\x0aᴍᴀᴅᴇ\x20ʙʏ\x20ǫᴜᴇᴇɴ\x20ᴺᴱᵀᴴᵁ\x20🎊',
         'fb\x20down',
         '*Give\x20Me\x20A\x20Text*',
         'download',
