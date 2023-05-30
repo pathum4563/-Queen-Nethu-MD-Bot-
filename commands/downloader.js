@@ -62,8 +62,10 @@ cmd({
         desc: "Downloads audio by yt link.",
         category: "downloader",
         react: "🎶",
-        use: '<yt video url>',
-    },
+        use: '<yt video url>'
+            }
+        }
+    )
 //---------------------------------------------------------------------------
 cmd({
         pattern: "song2",
