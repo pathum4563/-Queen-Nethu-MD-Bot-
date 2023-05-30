@@ -1,15 +1,15 @@
 {
-               "name": "Secktor-Md",
+               "name": "QueenNethu-Md",
                "version": "0.0.6",
                "description": "Multi device whatsapp bot by SamPandey001.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name secktor",
-                "stop": "pm2 stop secktor"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name QueenNethu",
+                "stop": "pm2 stop QueenNethu"
                 },
-               "author": "SamPandey001",
+               "author": "MR Hansamala",
               "dependencies": {
                        "@adiwajshing/baileys": "^4.4.0", 
                        "@adiwajshing/keyed-db": "^0.2.4",
