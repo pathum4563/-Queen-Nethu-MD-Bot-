@@ -63,57 +63,6 @@ cmd({
         category: "downloader",
         react: "🎶",
         use: '<yt video url>',
- 
-    },
-    async(Void, citel, text) => {
-        let yts = require("secktor-pack");
-
-            let search = await yts(text);
-
-            let anu = search.videos[0];
-        const getRandom = (ext) => {
-            return `${Math.floor(Math.random() * 10000)}${ext}`;
-        };
-
-        if (text.length === 0) {
-            reply(`❌ URL is empty! \nSend ${prefix}ytmp3 url`);
-            return;
-        }
-        try {
-            let urlYt = text;
-            if (!urlYt.startsWith("")) {
-                citel.reply(`*Give Song Name!*❗`);
-                return;
-            }
-            let infoYt = await ytdl.getInfo(anu.url);
-            //30 MIN
-            if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`*The limit has been exceeded.*❗`);
-            let titleYt = infoYt.videoDetails.title;
-            let randomName = getRandom(".mp3");
-            const stream = ytdl(anu.url, {
-                    filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
-                })
-                .pipe(fs.createWriteStream(`./${randomName}`));
-            await new Promise((resolve, reject) => {
-                stream.on("error", reject);
-                stream.on("finish", resolve);
-            });
-
-            let stats = fs.statSync(`./${randomName}`);
-            let fileSizeInBytes = stats.size;
-            let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
-            if (fileSizeInMegabytes <= dlsize) {
-                let yts = require("secktor-pack");
-            }
-        }
-    )
-//---------------------------------------------------------------------------
-cmd({
-        pattern: "song2",
-        desc: "Downloads audio by yt link.",
-        category: "downloader",
-        react: "🎶",
-        use: '<yt video url>',
     },
     async(Void, citel, text) => {
         let yts = require("secktor-pack");
