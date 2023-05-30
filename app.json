@@ -2,7 +2,7 @@
   "name": "Queen-Nethu-MD",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
   "logo": "https://telegra.ph/file/d229929fd0e975d64010c.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device"],
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Mr-Hansamala", "QueenNethuBot", "QueenNethu","QueenNethuMD","theme bot","multi device"],
   "success_url": "/",
   "stack": "container",
 "env": {
