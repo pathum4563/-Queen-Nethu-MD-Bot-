@@ -13,7 +13,7 @@ global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '94781708673'
 global.devs = '94781708673';
 global.website = 'https://github.com/shashikabot/-Queen-Nethu-MD-Bot-' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/d229929fd0e975d64010c.jpg'
 module.exports = {
   botname: process.env.BOT_NAME || 'Queen Nethu',
   ownername:process.env.OWNER_NAME || 'MR.Hansamala',
