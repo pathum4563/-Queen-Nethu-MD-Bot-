@@ -1,20 +1,9 @@
 /*
 
-░█▀▀█ ░█─░█ ░█▀▀▀ ░█▀▀▀ ░█▄─░█ 　 ░█▄─░█ ▀█▀ ░█─── ░█─░█ 　 ░█▀▄▀█ ░█▀▀▄ 
-░█─░█ ░█─░█ ░█▀▀▀ ░█▀▀▀ ░█░█░█ 　 ░█░█░█ ░█─ ░█─── ░█─░█ 　 ░█░█░█ ░█─░█ 
-─▀▀█▄ ─▀▄▄▀ ░█▄▄▄ ░█▄▄▄ ░█──▀█ 　 ░█──▀█ ▄█▄ ░█▄▄█ ─▀▄▄▀ 　 ░█──░█ ░█▄▄▀
-Whatsapp Bot  By @Janiya
+Queen Nethu MD Whatsapp Bot  By @MR>Hansamala
 
-❥WHATSAPP - https://wa.me/94767438882
+❥WHATSAPP - https://wa.me/94781708673
 
-❥SUPPORT - https://t.me/QueenNilu
-
-❥ YOUTUBE - https://youtube.com/c/Janithsadanuwan 
-
-❤️Thanks For All Helpers ❤️
-
-@nimesh-official - for Helps
-@adiwajshing -For Web Api
 
 
 */
