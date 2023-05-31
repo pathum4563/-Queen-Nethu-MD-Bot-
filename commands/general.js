@@ -1,12 +1,5 @@
 /**
- Copyright (C) 2022.
- Licensed under the  GPL-3.0 License;
- You may not use this file except in compliance with the License.
- It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
- * @version 0.0.6
+ 
  **/
 
 const { tlang, botpic,cmd, prefix, runtime,Config } = require('../lib')
@@ -17,7 +10,7 @@ cmd({
         pattern: "chat",
         desc: "chat with an AI",
         category: "general",
-        use: '<Hii,Secktor>',
+        use: '<Hii,QuenNethu>',
         filename: __filename,
     },
     async(Void, citel,text) => {
@@ -54,14 +47,14 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
+        let { data } = await axios.get('https://github.com/mrhansamala/-Queen-Nethu-MD-Bot-')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* secktorbot.tech/repo
-*Group:* secktorbot.tech/support
+*🍁 Repo:* /repo
+*Group:* /support
 *Deploy Your Own:*-
- SecktorBot.tech/youtube`
+ MR.Hansamala`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
