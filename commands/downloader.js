@@ -186,7 +186,7 @@ cmd({
                     url: anu.thumbnail,
                 },
                 caption: `
-╭───────────────◆
+┎────────────◈◍◈⇣
 │⿻ ${tlang().title} 
 │  *Youtube Player* ✨
 │⿻ *Title:* ${anu.title}
@@ -194,7 +194,7 @@ cmd({
 │⿻ *Viewers:* ${anu.views}
 │⿻ *Uploaded:* ${anu.ago}
 │⿻ *Author:* ${anu.author.name}
-╰────────────────◆
+┖─────────────◈◍◈⇡
 ⦿ *Url* : ${anu.url}
 `,
                 footer: tlang().footer,
