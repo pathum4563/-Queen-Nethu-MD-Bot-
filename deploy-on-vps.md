@@ -25,7 +25,7 @@
 
    5. Clone Repo and install required packages
       ```
-      git clone https://github.com/shashikabot/-Queen-Nethu-MD-Bot-
+      git clone https://github.com/mrhansamala/-Queen-Nethu-MD-Bot-
       cd Queen-Nethu-Md
       yarn install --network-concurrency 1
       ```
