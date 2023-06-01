@@ -1,100 +1,161 @@
 {
+
   "name": "Queen-Nethu-MD",
-  "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/d229929fd0e975d64010c.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Mr-Hansamala", "QueenNethuBot", "QueenNethu","QueenNethuMD","theme bot","multi device"],
+
+  "description": "Queen-Nethu-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+
+  "logo": "https://i.imgur.com/BmcuxsM.jpeg",
+
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
+
   "success_url": "/",
+
   "stack": "container",
+
 "env": {
+
   "OWNER_NAME": {
-  "description": "Name of Bot Owner",
-      "value": "Your Name."
+
+  "description": "BOT ට එන්න ඕන නම දෙන්න ",
+
+      "value": "👨‍💻 QUeen-NeTHU-MD-WA-BOT 👨‍💻"
+
   },
-  "ALIVE_MESSAGE": {
-    "description": "Alive message for bot",
+
+  "ALIVE_IMG": {
+
+    "description": "alive එකට එන්න ඕන image එකක url එකක් දෙන්න",
+
      "required" :false
+
     },
-   "THUMB_IMAGE": {
-    "description": "THUMBNAIL for bot.",
-     "value": "https://telegra.ph/file/d229929fd0e975d64010c.jpg?raw=true"
+
+   "ALIVE_MSJ": {
+
+    "description": "alive මැසෙජ් එක මෙතනට දාන්න",
+
+     "value": "i am alive now 🙋‍♂️"
+
     },
-    "ANTI_BAD_WORD": {
-    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
-     "required" :false
+  
+    "AUTO_VOICE": {
+
+    "description": "Auto Voice reply යන්න ඕන නම් true දෙන්න ඕනෙ නැත්තම් false දෙන්න",
+
+     "value": "false"
+
     },
+  
+    "AUTO_STICKER": {
+
+    "description": "auto sticker යන්න ඕන නම් true දෙන්න ඕනෙ නැත්තම් false දෙන්න",
+
+     "value": "false"
+
+    },
+
    "ANTILINK_VALUES": {
-    "description": "Put words for antilink",
-     "value": "chat.whatsapp.com,fb.com,instagram.com",
+
+    "description": "antilink ඔන් කලවිට මෙම ලින්ක් දැමූවිට පරිශීලකයා remove වේ",
+
+     "value": "chat.whatsapp.com",
+
      "required" :false
+
     },
-     "ANTILINK_ACTION": {
-    "description": "Put action for antilink",
-     "value": "remove",
-     "required" :false
-    },
-  "LEVEL_UP_MESSAGE": {
-    "description": "Fill the value true if you want bot send Level up message in chat.",
-     "required" :false,
-     "value": "true"
-    },
+
       "READ_MESSAGE": {
-    "description": "Fill the value true if you want bot to read all messages.",
+
+    "description": "බොට් මැසෙජ් read කරන්න ඕන නම් true දෙන්න ඕනෙ නැත්තම් false දෙන්න",
+
      "required" :false,
+
      "value": "true"
+
     },
+
    "DISABLE_PM": {
-    "description": "Disable bot in pm",
+
+    "description": "බොට් inbox වැඩ කරන්න ඕන නම් false දෙන්න වැඩකරන්න ඕනෙ නැත්තම් true දෙන්න",
+
      "required" :false
+
     },
+
       "PREFIX": {
-  "description": "Enter your desired prefix for bot.",
+
+  "description": "මෙය වෙනස් නොකරන්න ",
+
       "value": "."
+
   },
+
   "OWNER_NUMBER": {
+
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "919628516236"
+
+       "value": "94781708673"
+
   },
+
    "SESSION_ID": {
-    "description": "Please put your SESSION_ID here,if you don't have visit https://secktorbot.herokuapp.com/session "
-     "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZVBZU3cydlFrMXZYMWl2M2JvVllVMVBCdzJSMUN2aDJlQ1B6UjZpMmdubz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaVlWZEViNER3Z0JDT0xycU5iSDBpZUlVU0JzTDNSaTY2WXVzZFNSWU15QT0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJvSjlGNVdHV1FXRDRqY3BHTG83eFcrN3RHRGR6UWY2bG9IYVY1WmRtcVgwPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ4ZVRWa3JMTjNXTkI5L3ZZd0paRys4cTRvTWp6NWNzNFNZYjAvTGJNMm04PSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImNBTjFPTHdyRXQ0eGVlVEtYVFNMNDRFQ2FNL2oxNm1BeDNwQWNYQkJ2Vzg9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InZRVUNqZTlFL1NzeWJJbE8rZHF3VUxtRkhQWndFaTh6bWtGd3JJclUwbDQ9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJKMHZDd2ROR1RoK1dUczFWNUNVTzBoOUNMT3piajE2Zkh2VVV4R0psdWZiaVVUMnNXYkhYc1RSNVpkOFpQQy8zaDNuVDNXallUTWdWNmErb2NkWDlnUT09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjgyLCJhZHZTZWNyZXRLZXkiOiJEaXErWm9iZU1HRmI4aEdXRVIxcFFnb0trV2JoWGFzQ29pdG9jTXIrVkR3PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImFjY291bnQiOnsiZGV0YWlscyI6IkNLT2k2cE1HRU5IVHk2TUdHQUU9IiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InJidTNwNUNkbWsyRG9Ia2tob09qNzcwblNFY1lvMmZsWVMwc0N3QmZDaUE9IiwiYWNjb3VudFNpZ25hdHVyZSI6IjNwcFNZb043S2l1ZlFKZE1SaSt6U0U4OGd4eTZzQiswaVh5dlI1NmhXRGNseFV2YUprTTVxNXFqL3prbzdXbjlsd3ZvMFJXTlpaMG1SbFBhVWJOSUFRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiI0b3FjM050Mk1zZjZEV3k0Ynd3SUhaSU9JdmdheUIrMWd1aGxMRzVLN3BtbzBYNnZrcjRvSUJmcDlEeC9mNnBQbDFQYm1lTTIxVTAzWEhXOXlkcnBpdz09In0sIm1lIjp7ImlkIjoiOTQ3ODE3MDg2NzM6MjBAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoi44W577ykYVLhtIvgvJLvvLPKnO+8oeG0he+8r+G0oeC8kuOFuSAgICAgICAgICDCoCAgICAgICAgICDCoCAgICAgICAgICAgICAgICAgICAgICAgIO+8t++9he+9jO+9g++9j++9je+9hSDvvK3vvLkg77yp772O772G772PIn0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6Ijk0NzgxNzA4NjczOjIwQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmEyN3Q2ZVFuWnBOZzZCNUpJYURvKys5SjBoSEdLTm41V0V0TEFzQVh3b2cifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE2ODUyNTI1NjV9"
+
+    "description": "QR කේතය ස්කැන් එකෙන් ආපු Code එක දාන්න "
+
   },
+
     "OPENAI_API_KEY": {
-    "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
+
+    "description": "මෙය වෙනස් නොකරන්න ",
+
        "value": "Replace Me(optional)",
+
        "required" :false
+
   },
+
   "WELCOME_MESSAGE": {
-    "description": "Enter the message here which you want to see in Welcome when a new user joins a Group.",
+
+    "description": "මෙය වෙනස් නොකරන්න බොට් සෑදීමෙන් පසුව මෙය වෙනස් කල හැක ",
+
        "value": "  *Hi,* @user \n*Welcome in* @gname \n*Member count* : @count th",
+
        "required" :false
+
   },
+
   "MONGODB_URI": {
-    "description": "A secret String for Mongodb Connection.(Required)"
-    "value": "mongodb://ugbvjyqq0oilgkxtpyde:xsyOebp0xmPM7lChiDX@bxqf0g350hlbz8l5vqj9-mongodb.services.clever-cloud.com:2437/bxqf0g350hlbz8l5vqj9"
+
+    "description": "MONGODB_URI එක මෙහි යොදන්න දන්නෙ නැත්නම් මෙය බලන්න https://youtu.be/C4feDuE-vrM "
+
   },
+
     "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "SECKTOR"
+
+    "description": "මෙය වෙනස් නොකරන්න (Don't Change This) ",
+
+     "value": "QUEEN-NETHU-MD"
+
   },
+
     "WORKTYPE": {
-  "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
+
+  "description": "ඔබට පමණක් භාවිතා කිරීමට private දෙන්න  අන් අයට භාවිත කිරීමට public දෙන්න",
+
          "value": "public"
+
   },
-      "AUTO_REACTION": {
-    "description": "Reacts emoji to all commands.",
-     "value": "false",
-     "required": false 
-  },
+
   "PACK_INFO": {
+
     "description": "Put packname;authorname.",
-     "value": "SamPandey001;Secktor",
+
+     "value": "QUEEN_NETHU-MD🎊;MR.HANSAMALA✅",
+
      "required": false 
+
   }
-},
-  "formation": {
-      "worker": {
-          "quantity": 1,
-          "size": "free"
-      }
-  }
+
+}
+
 }
