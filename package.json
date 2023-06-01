@@ -1,15 +1,15 @@
 {
-               "name": "QueenNethu-Md",
+               "name": "Secktor-Md",
                "version": "0.0.6",
                "description": "Multi device whatsapp bot by SamPandey001.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name QueenNethu",
-                "stop": "pm2 stop QueenNethu"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name prabath",
+                "stop": "pm2 stop prabath"
                 },
-               "author": "MR Hansamala",
+               "author": "SamPandey001",
               "dependencies": {
                        "@adiwajshing/baileys": "^4.4.0", 
                        "@adiwajshing/keyed-db": "^0.2.4",
@@ -30,6 +30,7 @@
                        "mongoose": "^6.2.1",
                        "mumaker": "^1.0.0",
                        "google-it": "^1.6.2",
+                       "google-image-sr": "^1.0.0",
                        "file-type": "^16.5.3",
                        "form-data": "^4.0.0",
                        "ffmpeg": "^0.0.4",
@@ -54,8 +55,12 @@
                        "util": "^0.12.4",           
                        "secktor-pack": "latest",
                        "ytdl-secktor": "latest",
+                       "googlebard": "^1.0.5",
+                       "aptoide-scraper": "^1.0.1",
+                       "mfiredlcore-vihangayt": "^1.0.0",
                        "pastebin-js": "latest",
-                       "wa-sticker-formatter": "^4.3.2"
+                       "wa-sticker-formatter": "^4.3.2",
+                       "wa_set_pkg":"1.0.1"
                       },
                   "directories": {
                        "lib": "lib",
@@ -66,10 +71,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/mrhansamala/-Queen-Nethu-MD-Bot-.git"
+                 "url": "git+https://github.com/SamPandey001/Secktor-Md.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/mrhansamala/-Queen-Nethu-MD-Bot-./issues"
+                 "url": "https://github.com/SamPandey001/Secktor-Md/issues"
                   },
-                 "homepage": "https://github.com/shashikabot/-Queen-Nethu-MD-Bot-#readme"
+                 "homepage": "https://github.com/SamPandey001/Secktor-Md#readme"
                   }
