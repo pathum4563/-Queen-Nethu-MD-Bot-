@@ -271,9 +271,8 @@ ${alivemessage}
 │ *Owner:-* _${Config.ownername}_
 │ *Branch:-* _${Config.BRANCH}_
 ┖─┈─┈──┈─┈─◈❁◈─┈─┈─┈─┈─◍
- █▄░█ █▀▀ ▀█▀ █░█ █░█  
- █░▀█ ██▄ ░█░ █▀█ █▄█ 
- 
+ █▄▄ █▀█ ▀█▀
+ █▄█ █▄█ ░█░
 ┎─┈─┈─┈──┈──◈◎◈─┈─┈─┈──┈──«
 │◍◈◎ _Type ${prefix}menu for my command list._
 ┖┬─┈─┈─┈──┈─◈◎◈─┈─┈─┈──┈─»
