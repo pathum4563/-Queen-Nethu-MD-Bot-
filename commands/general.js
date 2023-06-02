@@ -61,8 +61,8 @@ cmd({
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* /repo
-*Group:* /support
+*🍁 Repo:* CѲѪѪЇЙG $ѲѲЙ/repo
+*Group:* CѲѪѪЇЙG $ѲѲЙ/support
 *Deploy Your Own:*-
  MR.Hansamala`
         let buttonMessaged = {
@@ -72,7 +72,7 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
+                    title: "𝓠𝓾𝓮𝓮𝓷-𝓝𝓮𝓽𝓱𝓾-𝓡𝓔𝓟𝓞",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
