@@ -57,22 +57,14 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://github.com/mrhansamala/-Queen-Nethu-MD-Bot-')
-        let cap = `╭═════╍╍╍╍╍╍╍╍╍╍═══════°
-╎💕 𝑄𝛯𝛯𝛮 𝛮𝛯𝑇𝛨𝑈 𝛭𝐷💕
-╎
-*✶✶✶✶✶✶✶═╍═╍═╍═✶✶✶✶✶✶✶*
-╽🤓 *🄷🄴🅈* ${citel.pushName}\n
-╿✨:*🅃🄾🅃🄰🄻 🅂🅃🄰🅁🅂* :- ${data.stargazers_count} stars
-╽👑𝐅𝚯𝚪𝐊𝐒  :- ${data.forks_count} forks
-╿🔥 *🅁🄴🄿🄾* :- Cᴏᴍᴍɪɴɢ Sᴏᴏɴ/Rᴇᴘᴏ
-╽🥏 *🄶🅁🄾🅄🄿* :- Cᴏᴍᴍɪɴɢ Sᴏᴏɴ/Sᴜᴘᴘᴏʀᴛ
-╿👨🏻‍💻 *🄱🄾🅃 🄾🅆🄽🄴🅁*:- MR.Hᴀɴꜱᴀᴍᴀʟᴀ
-╽🌟:*🅆* 𝒐𝒓𝒍𝒅 *🄱* 𝒆𝒔𝒕 *🅆* 𝒉𝒕𝒔𝒂𝒑𝒑 *🄱* 𝒐𝒕 
-╿🇱🇰 *🄼* 𝒂𝒅𝒆 *🄱* 𝒚 *🅂* 𝒓𝒊 *🄻* 𝒂𝒏𝒌𝒂
-╎
-*✶✶✶✶✶✶✶═╍═╍═╍═✶✶✶✶✶✶✶*
-╰═════╍╍╍╍╍╍╍╍╍╍═══════°'
+        let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
+        let cap = `Hey ${citel.pushName}\n
+*⭐ Total Stars:* ${data.stargazers_count} stars
+*🍽️ Forks:* ${data.forks_count} forks
+*🍁 Repo:* secktorbot.tech/repo
+*Group:* secktorbot.tech/support
+*Deploy Your Own:*-
+ SecktorBot.tech/youtube`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -80,9 +72,8 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "ǪЦΞΞИ-ИΞΓHЦ-ЯΞPФ",
-                    body: "Devolop By MR.Hansamala",
-                    body2: "Easy to Use",
+                    title: "Secktor-Repo",
+                    body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
                     mediaUrl: '',
