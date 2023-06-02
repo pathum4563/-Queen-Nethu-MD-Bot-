@@ -74,7 +74,7 @@ cmd({
                 externalAdReply: {
                     title: "ǪЦΞΞИ-ИΞΓHЦ-ЯΞPФ",
                     body: "Devolop By MR.Hansamala",
-                    body: "Easy to Use",
+                    body2: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
                     mediaUrl: '',
