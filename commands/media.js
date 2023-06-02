@@ -1,7 +1,15 @@
 /*
+█▀█ █░█ █▀▀ █▀▀ █▄░█   █▄░█ █▀▀ ▀█▀ █░█ █░█   █▀▄▀█ █▀▄   █▄▄ █▀█ ▀█▀
+▀▀█ █▄█ ██▄ ██▄ █░▀█   █░▀█ ██▄ ░█░ █▀█ █▄█   █░▀░█ █▄▀   █▄█ █▄█ ░█░
 
-
-
+ Copyright (C) 2023.
+ Licensed under the  GPL-3.0 License;
+ You may not use this file except in compliance with the License.
+ It is supplied in the hope that it may be useful.
+ * @project_name : QueenNethu-Md
+ * @author : MR.Hansamala <https://github.com/mrhansamala>
+ * @description : Nethu,A Multi-functional whatsapp bot.
+ * @version 0.0.6
 */
 const _0x3d1a78 = _0x41b7;
 (function (_0x507db0, _0xc86ab1) {
