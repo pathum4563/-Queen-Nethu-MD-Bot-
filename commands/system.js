@@ -262,21 +262,21 @@ cmd({
             let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by MR>Hansamala.*`
             const alivtxt = `
 ┎─┈─┈──┈─┈─◈❁◈─┈─┈─┈─┈─◍
-┃ *Hello, ${citel.pushName},*
-┃ _This is  ${tlang().title}._
+┃ *HΞLLФ, ${citel.pushName},*
+┃ _ΓHIS IS  ${tlang().title}._
 ${alivemessage}
 ◍┈─┈──┈─◈❁◈─┈─┈─┈─◍
-│ *Version:-* _0.0.6_
-│ *Uptime:-* _${runtime(process.uptime())}_
-│ *Owner:-* _${Config.ownername}_
-│ *Branch:-* _${Config.BRANCH}_
+│ *VΞЯSIФИ:-* _0.0.6_
+│ *ЦPΓIMΞ:-* _${runtime(process.uptime())}_
+│ *ФЩИΞЯ:-* _${Config.ownername}_
+│ *БЯДИCH:-* _${Config.BRANCH}_
 ┖─┈─┈──┈─┈─◈❁◈─┈─┈─┈─┈─◍
  █▄▄ █▀█ ▀█▀
  █▄█ █▄█ ░█░
 ┎─┈─┈─┈──┈──◈◎◈─┈─┈─┈──┈──«
-│◍◈◎ _Type ${prefix}menu for my command list._
+│◍◈◎ _ΓУPΞ ${prefix}menu FФЯ MУ CФMMДИD LISΓ._
 ┖┬─┈─┈─┈──┈─◈◎◈─┈─┈─┈──┈─»
-◍◈◎ _Powered by ${Config.ownername}_ ◍◈◎
+◍◈◎ _PФЩΞЯΞD БУ ${Config.ownername}_ ◍◈◎
 ┖─┈─┈──┈─┈─◈❁◈─┈─┈─┈─┈─◍
 `;
             let aliveMessage = {
