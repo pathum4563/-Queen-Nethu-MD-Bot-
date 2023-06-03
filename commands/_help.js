@@ -51,11 +51,6 @@ Nethu.cmd({
 │  0.2 ɢᴇᴛ ᴛʜᴇ ʟɪꜱᴛ
 ┖┈┈──┈┈──┈┈──┈┒┈──◎◈◍\n
 ` + '```'
-          let buttonMessaged = {
-                    image: { url: await botpic() },
-                    caption: str,
-                    footer: tlang().title,
-                    headerType: 4
                 };
                 return await Void.sendMessage(citel.chat, buttonMessaged);
             }
