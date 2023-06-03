@@ -21,7 +21,7 @@ const long = String.fromCharCode(8206)
 const readmore = long.repeat(4001)
 const Secktor = require('../lib/commands')
    //---------------------------------------------------------------------------
-Secktor.cmd({
+Nethu.cmd({
             pattern: "help",
             alias: ["menu"],
             desc: "Help list",
@@ -51,6 +51,16 @@ Secktor.cmd({
 │  0.2 ɢᴇᴛ ᴛʜᴇ ʟɪꜱᴛ
 ┖┈┈──┈┈──┈┈──┈┒┈──◎◈◍\n
 ` + '```'
+          let buttonMessaged = {
+                    image: { url: await botpic() },
+                    caption: str,
+                    footer: tlang().title,
+                    headerType: 4
+                };
+                return await Void.sendMessage(citel.chat, buttonMessaged);
+            }
+        }
+    )
     //---------------------------------------------------------------------------
 Secktor.cmd({
             pattern: "0.1",
