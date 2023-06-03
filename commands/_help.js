@@ -20,10 +20,66 @@ let { fancytext, tlang, tiny, runtime, formatp, botpic, prefix, sck1 } = require
 const long = String.fromCharCode(8206)
 const readmore = long.repeat(4001)
 const Secktor = require('../lib/commands')
-    //---------------------------------------------------------------------------
+   //---------------------------------------------------------------------------
 Secktor.cmd({
             pattern: "help",
             alias: ["menu"],
+            desc: "Help list",
+            category: "general",
+            react: "🧚",
+            filename: __filename
+        },
+        async(Void, citel, text) => {
+            const { commands } = require('../lib');
+            if (text.split(" ")[0]) {
+                let arr = [];
+                const cmd = commands.find((cmd) => cmd.pattern === (text.split(" ")[0].toLowerCase()))
+                if (!cmd) return await citel.reply("*❌No Such commands.*");
+                else arr.push(`*🍁Command:* ${cmd.pattern}`);
+                if (cmd.category) arr.push(`*🧩Category:* ${cmd.category}`);
+                if (cmd.alias) arr.push(`*🧩Alias:* ${cmd.alias}`);
+                if (cmd.desc) arr.push(`*🧩Description:* ${cmd.desc}`);
+                if (cmd.use) arr.push(`*〽️Usage:*\n \`\`\`${prefix}${cmd.pattern} ${cmd.use}\`\`\``);
+                return await citel.reply(arr.join('\n'));
+            } else {
+                const cmds = {}
+                commands.map(async(command, index) => {
+                    if (command.dontAddCommandList === false && command.pattern !== undefined) {
+                        if (!cmds[command.category]) cmds[command.category] = []
+                        cmds[command.category].push(command.pattern)
+                    }
+                })
+                const time = moment(moment())
+                    .format('HH:mm:ss')
+                moment.tz.setDefault('Asia/KOLKATA')
+                    .locale('id')
+                const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                let total = await sck1.countDocuments()
+                let str = `┏─┈┈──┈┈──┈┈──┈┒┈──◎◈◍ ` + fancytext(Config.ownername.split(' ')[0], 58) + ` ⊷◍◈◎─┈┈──┈┈──┈◎◈◍⊷\n`
+                str +=
+                    '```' + `│ ┎┈─┈─┈─┈◈❁◈─┈──┈─┈┒
+┆◎◈◍𝗕𝗼𝘁 𝗡𝗔𝗠𝗘:- Qᴜᴇᴇɴ ɴᴇᴛʜᴜ ᴍᴅ
+┆◈❥◍𝗨𝘀𝗲𝗿:- ${citel.pushName}
+┆◈❥◍𝗧𝗵𝗲𝗺𝗲:- ${tlang().title}
+┆◈❥◍𝗣𝗿𝗲𝗳𝗶𝘅:- [ ${prefix} ]
+┆◈❥◍𝗢𝘄𝗻𝗲𝗿:- ${Config.ownername}
+┆◈❥◍𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗡𝗮𝗺𝗲:- ᴍʀ.ʜᴀɴꜱᴀᴍᴀʟᴀ
+┆◈❥◍𝗣𝗹𝘂𝗴𝗶𝗻𝘀:- ${commands.length}
+┆◈❥◍𝗨𝘀𝗲𝗿𝘀:- ${total}
+┆◈❥◍𝗨𝗽𝘁𝗶𝗺𝗲:- ${runtime(process.uptime())}
+┆◈❥◍𝗠𝗲𝗺:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+┆◈❥◍𝗧𝗶𝗺𝗲:- ${time}
+┆◈❥◍𝗗𝗮𝘁𝗲:- ${date}
+│ ┖┈─┈──┈─◈❁◈─┈─┈─┈─◍
+┖─┈─┈─┈─┈─┈─┈─┈─⊷
+┏─┈┈──┈┈──┈┈──┈┒┈──◎◈◍
+  0.1 ɢᴇᴛ ᴛʜᴇ ᴍᴇɴᴜ
+  0.2 ɢᴇᴛ ᴛʜᴇ ʟɪꜱᴛ\n
+` + '```'
+    //---------------------------------------------------------------------------
+Secktor.cmd({
+            pattern: "0.1",
+            alias: ["0.1"],
             desc: "Help list",
             category: "general",
             react: "🧚",
@@ -100,6 +156,7 @@ Secktor.cmd({
     //---------------------------------------------------------------------------
 Secktor.cmd({
             pattern: "list",
+            alias: ["0.2"],
             desc: "list menu",
             category: "general",
             react: "✅"
