@@ -27,7 +27,6 @@ Secktor.cmd({
             desc: "Help list",
             category: "general",
             react: "🧚",
-            filename: __filename
         },
         async(Void, citel) => {
             const { commands } = require('../lib');
@@ -61,7 +60,7 @@ Secktor.cmd({
 Secktor.cmd({
             pattern: "0.1",
             alias: ["0.1"],
-            desc: "Help list",
+            desc: "    ",
             category: "general",
             react: "🧚",
             filename: __filename
