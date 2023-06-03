@@ -28,12 +28,7 @@ Secktor.cmd({
             category: "general",
             react: "🧚",
         },
-        async(Void, citel) => {
-            const { commands } = require('../lib');
-            let str = `
-╭━━〘 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 〙━━──⊷`
-            str += '```' + `
-┏─┈┈──┈┈──┈┈──┈┒┈──◎◈◍
+'```' + `┏─┈┈──┈┈──┈┈──┈┒┈──◎◈◍
   QЦΣΣП ПΣƬΉЦ MD
 ⊷◍◈◎─┈┈──┈┈──┈◎◈◍⊷
 │ ┎┈─┈─┈─┈◈❁◈─┈──┈─┈┒
@@ -60,7 +55,7 @@ Secktor.cmd({
 Secktor.cmd({
             pattern: "0.1",
             alias: ["0.1"],
-            desc: "    ",
+            desc: "Help list",
             category: "general",
             react: "🧚",
             filename: __filename
