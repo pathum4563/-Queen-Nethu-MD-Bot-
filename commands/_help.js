@@ -29,20 +29,15 @@ Secktor.cmd({
             react: "🧚",
             filename: __filename
         },
-        async(Void, citel, text) => {
+        async(Void, citel) => {
             const { commands } = require('../lib');
-          
-                    }
-                })
-                const time = moment(moment())
-                    .format('HH:mm:ss')
-                moment.tz.setDefault('Asia/KOLKATA')
-                    .locale('id')
-                const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-                let total = await sck1.countDocuments()
-                let str = `┏─┈┈──┈┈──┈┈──┈┒┈──◎◈◍ ` + fancytext(Config.ownername.split(' ')[0], 58) + ` ⊷◍◈◎─┈┈──┈┈──┈◎◈◍⊷\n`
-                str +=
-                    '```' + `│ ┎┈─┈─┈─┈◈❁◈─┈──┈─┈┒
+            let str = `
+╭━━〘 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 〙━━──⊷`
+            str += '```' + `
+┏─┈┈──┈┈──┈┈──┈┒┈──◎◈◍
+  QЦΣΣП ПΣƬΉЦ MD
+⊷◍◈◎─┈┈──┈┈──┈◎◈◍⊷
+│ ┎┈─┈─┈─┈◈❁◈─┈──┈─┈┒
 ┆◎◈◍𝗕𝗼𝘁 𝗡𝗔𝗠𝗘:- Qᴜᴇᴇɴ ɴᴇᴛʜᴜ ᴍᴅ
 ┆◈❥◍𝗨𝘀𝗲𝗿:- ${citel.pushName}
 ┆◈❥◍𝗧𝗵𝗲𝗺𝗲:- ${tlang().title}
