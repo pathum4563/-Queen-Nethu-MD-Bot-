@@ -51,7 +51,6 @@ Nethu.cmd({
 │  0.2 ɢᴇᴛ ᴛʜᴇ ʟɪꜱᴛ
 ┖┈┈──┈┈──┈┈──┈┒┈──◎◈◍\n
 ` + '```'
-                };
                 return await Void.sendMessage(citel.chat, buttonMessaged);
             }
         }
