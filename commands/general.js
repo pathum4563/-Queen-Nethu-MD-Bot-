@@ -80,8 +80,8 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
-                    body: "Easy to Use",
+                    title: "Queen-Nethu-Repo",
+                    body: "MR>Hansamala",
                     thumbnail: log0,
                     mediaType: 4,
                     mediaUrl: '',
