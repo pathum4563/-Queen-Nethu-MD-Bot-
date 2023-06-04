@@ -99,7 +99,7 @@ QueenNethu.cmd({
         }
     )
     //---------------------------------------------------------------------------
-Secktor.cmd({
+QueenNethu.cmd({
             pattern: "list",
             desc: "list menu",
             category: "general",
@@ -134,7 +134,7 @@ Secktor.cmd({
         }
     )
     //---------------------------------------------------------------------------
-Secktor.cmd({
+QueenNethu.cmd({
         pattern: "owner",
         desc: "To check ping",
         category: "general",
@@ -171,7 +171,7 @@ Secktor.cmd({
     }
 )
 
-Secktor.cmd({
+QueenNethu.cmd({
     pattern: "file",
     desc: "to get extact name where that command is in repo.\nSo user can edit that.",
     category: "general",
