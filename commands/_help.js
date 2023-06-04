@@ -55,21 +55,22 @@ Secktor.cmd({
                     .locale('id')
                 const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `┏─┈┈──┈┈──┈┈──┈┒┈──◎◈◍ ` + fancytext(Config.ownername.split(' ')[0], 58) + ` ⊷◍◈◎─┈┈──┈┈──┈◎◈◍⊷\n`
+                let str = `┏─┈┈──┈┈──┈┈──┈┒┈──◎◈◍\n + fancytext(Config.ownername.split(' ')[0], 58) +\n  💕𝛮𝛯𝑇𝛨𝑈-𝛭𝐷-𝐵𝛩𝑇💕🪢🅼⃝⃝⃝⃞🅴⃞🅽⃞🆄⃞🅻⃞🅸⃞🆂⃞🆃⃞🪢\n✶━━┉┉┉┉┉━╾╾━┉┉┉┉┉━━✶\n`
                 str +=
-                    '```' + `│ ┎┈─┈─┈─┈◈❁◈─┈──┈─┈┒
-┆◎◈◍𝗕𝗼𝘁 𝗡𝗔𝗠𝗘:- Qᴜᴇᴇɴ ɴᴇᴛʜᴜ ᴍᴅ
-┆◈❥◍𝗨𝘀𝗲𝗿:- ${citel.pushName}
-┆◈❥◍𝗧𝗵𝗲𝗺𝗲:- ${tlang().title}
-┆◈❥◍𝗣𝗿𝗲𝗳𝗶𝘅:- [ ${prefix} ]
-┆◈❥◍𝗢𝘄𝗻𝗲𝗿:- ${Config.ownername}
-┆◈❥◍𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗡𝗮𝗺𝗲:- ᴍʀ.ʜᴀɴꜱᴀᴍᴀʟᴀ
-┆◈❥◍𝗣𝗹𝘂𝗴𝗶𝗻𝘀:- ${commands.length}
-┆◈❥◍𝗨𝘀𝗲𝗿𝘀:- ${total}
-┆◈❥◍𝗨𝗽𝘁𝗶𝗺𝗲:- ${runtime(process.uptime())}
-┆◈❥◍𝗠𝗲𝗺:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-┆◈❥◍𝗧𝗶𝗺𝗲:- ${time}
-┆◈❥◍𝗗𝗮𝘁𝗲:- ${date}
+                    '```' + `┏┉┉┉┉┉┉┉┉━┉┉┉┉┉┉┉┉⃥
+┊╭═══════╍════════⃥
+┋┊💞⃞⃫⃯̥̥̥̥̥̥⃗🧚‍♀️𝚩𝚯𝚻 𝚴𝚫𝚳𝚵 :- Qᴜᴇᴇɴ ɴᴇᴛʜᴜ ᴍᴅ
+┊┋💞⃞⃫⃯̥̥̥̥̥̥⃗🧚‍♀️𝐔𝐒𝚵𝚪 :- ${citel.pushName}
+┋┊💞⃞⃫⃯̥̥̥̥̥̥⃗🧚‍♀️𝚻𝚮𝚵𝚳𝚵 :- ${tlang().title}
+┊┋💞⃞⃫⃯̥̥̥̥̥̥⃗🧚‍♀️𝚸𝚪𝚵𝐅𝚰𝚾 :- [ ${prefix} ]
+┋┊💞⃞⃫⃯̥̥̥̥̥̥⃗🧚‍♀️𝚯𝐖𝚴𝚵𝚪 :- ${Config.ownername}
+┊┋💞⃞⃫⃯̥̥̥̥̥̥⃗🧚‍♀️𝐃𝚵𝛁𝚵𝐋𝚯𝚸𝚵𝚪 :- ᴍʀ.ʜᴀɴꜱᴀᴍᴀʟᴀ
+┋┊💞⃞⃫⃯̥̥̥̥̥̥⃗🧚‍♀️𝚸𝐋𝐔𝐆𝚰𝚴𝐒 :- ${commands.length}
+┋┊💞⃞⃫⃯̥̥̥̥̥̥⃗🧚‍♀️𝚸𝐋𝐔𝐆𝚰𝚴𝐒 :- ${total}
+┊┋💞⃞⃫⃯̥̥̥̥̥̥⃗🧚‍♀️𝐔𝚸𝚻𝚰𝚳𝚵 :- ${runtime(process.uptime())}
+┋┊💞⃞⃫⃯̥̥̥̥̥̥⃗🧚‍♀️𝚳𝚵𝚳𝚯𝚪𝐘 :- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+┊┋💞⃞⃫⃯̥̥̥̥̥̥⃗🧚‍♀️𝚻𝚰𝚳𝚵 :- ${time}
+┋┊💞⃞⃫⃯̥̥̥̥̥̥⃗🧚‍♀️𝐃𝚫𝚻𝚵 :- ${date}
 │ ┖┈─┈──┈─◈❁◈─┈─┈─┈─◍
 ┖─┈─┈─┈─┈─┈─┈─┈─⊷\n
 ` + '```'
