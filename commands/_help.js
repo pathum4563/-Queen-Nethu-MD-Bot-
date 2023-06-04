@@ -21,7 +21,7 @@ const long = String.fromCharCode(8206)
 const readmore = long.repeat(4001)
 const QueenNethu = require('../lib/commands')
     //---------------------------------------------------------------------------
-Secktor.cmd({
+QueenNethu.cmd({
             pattern: "help",
             alias: ["menu"],
             desc: "Help list",
