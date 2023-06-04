@@ -50,6 +50,10 @@
   "description": "Enter your desired prefix for bot.",
       "value": "."
   },
+  "AUTO_VOICE": {
+    "description": "Auto Voice reply යන්න ඕන නම් true දෙන්න ඕනෙ නැත්තම් false දෙන්න",
+       "value": "false"
+  },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
        "value": "919628516236"
