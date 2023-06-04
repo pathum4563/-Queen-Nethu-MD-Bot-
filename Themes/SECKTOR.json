@@ -1,6 +1,6 @@
 {
   "__JSON__": true,
-  "AUTHOR": "MR.Hansamala",
+  "AUTHOR": "SamPandey001",
   "LANGUAGE": "English",
   "LANGCODE": "en",
   "STRINGS": {
@@ -10,7 +10,7 @@
           "UPDATED_LOCAL": "*Successfully Updated!*"
       },
       "global": {
-          "botName": " Powered by Queen Nethu",
+          "botName": " Powered by Secktor",
           "body": "𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝 𝐵𝑜𝑡",
           "greet2" : "Sir",
           "pic1": "https://i.imgur.com/BmcuxsM.jpeg",
