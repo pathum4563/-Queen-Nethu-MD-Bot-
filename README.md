@@ -43,7 +43,7 @@
  
  [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/github/mrhansamala/-Queen-Nethu-MD-)
  
- ### QR CODE SCAN
+ ### ▌│█║▌║▌║ §ÇÄñ QR ÇÖÐÈ ║▌║▌║█│▌
  
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@shashikabot/HumblePastelOrganization)
     
