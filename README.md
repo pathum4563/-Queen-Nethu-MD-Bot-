@@ -1,6 +1,6 @@
 <div align="center">
 <details>
-    <summary>⏬<b>(っ◔◡◔)っ ♥ SCAN QR CODE ♥</b>⏬</b></summary>
+    <summary>⏬<b>(っ◔◡◔)っ ♥ 𝓒𝓛𝓘𝓒𝓚 𝓜𝓔 𝓣𝓞 𝓥𝓘𝓔𝓦 ♥</b>⏬</b></summary>
 
   
 <div align="center">
