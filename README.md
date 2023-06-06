@@ -41,7 +41,7 @@
 <a href="https://app.uffizzi.com/projects"><img src="https://telegra.ph/file/e464e609e43eb3dfdc144.png" alt="Deploy on Railway" width="170px"></a>
 </p>
  
- [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)]((https://replit.com/github/mrhansamala/-Queen-Nethu-MD-)
+ [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/github/mrhansamala/-Queen-Nethu-MD-)
  
  ### QR CODE SCAN
  
