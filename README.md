@@ -1,6 +1,6 @@
 <div align="center">
 <details>
-    <summary>⏬<b>🧚‍♀️<b>CLICK ME TO VIEW🧚‍♀️</b>⏬</b></summary>
+    <summary>⏬<b>(っ◔◡◔)っ ♥ SCAN QR CODE ♥</b>⏬</b></summary>
 
   
 <div align="center">
@@ -28,7 +28,7 @@
  <p align="left">
 <a href="https://github.com/shashikabot/-Queen-Nethu-MD-Bot-/fork"><img align="center" src="https://i.ibb.co/6JPLzq0/3105206-f081-5-removebg-preview.png" alt="Fork and deploy" height="35" width="150" /></a>   
     
-  ### Simple Method
+  ### ıllıllı ＳＣＡＮ ＱＲ ＣＯＤＥ ıllıllı
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shashikabot/-Queen-Nethu-MD-Bot-.git)
      </div>
@@ -43,7 +43,7 @@
  
  [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/github/mrhansamala/-Queen-Nethu-MD-)
  
- ### ▌│█║▌║▌║ §ÇÄñ QR ÇÖÐÈ ║▌║▌║█│▌
+ ### ıllıllı ＳＣＡＮ ＱＲ ＣＯＤＥ ıllıllı
  
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@shashikabot/HumblePastelOrganization)
     
