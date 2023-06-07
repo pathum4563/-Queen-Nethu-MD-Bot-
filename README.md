@@ -11,7 +11,7 @@
 
    <p align="center">
 <a href="https://github.com">
-    <img src="https://imgur.com/a/221EDgs">
+    <img src="https://i.ibb.co/5R3pFFp/68747470733a2f2f692e6962622e636f2f68386d484c6a382f3130333930323033362d72656d6f766562672d707265766965.png">
   </a>
   
 
@@ -64,7 +64,7 @@
 <div>
 <h2 align="center">💖 ~ thnx for read ~ 💖</h2>
 <div align="center">
-<img src="https://i.ibb.co/5R3pFFp/68747470733a2f2f692e6962622e636f2f68386d484c6a382f3130333930323033362d72656d6f766562672d707265766965.png">
+<img src="https://imgur.com/a/221EDgs.gif">
 </div>
 <hr>
 </div>
