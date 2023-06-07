@@ -11,7 +11,7 @@
 
    <p align="center">
 <a href="https://github.com">
-    <img src="https://i.imgur.co">
+    <img src="https://imgur.com/a/221EDgs">
   </a>
   
 
