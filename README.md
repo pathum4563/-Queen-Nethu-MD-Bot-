@@ -64,7 +64,7 @@
 <div>
 <h2 align="center">💖 ~ thnx for read ~ 💖</h2>
 <div align="center">
-<img src="https://imgur.com/a/221EDgs">
+<img src="https://imgur.com/3U14d9C">
 </div>
 <hr>
 </div>
