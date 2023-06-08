@@ -1,8 +1,8 @@
 <h2 align="center">🔰 Meet Team Queen Nethu 🔰
 </h2>
 
-[![Fantox](https://github.com/.png)](https://github.com/)  | 
-[![Ahmii-kun](https://github.com/.png)](https://github.com/) | 
-[![Pratyush](https://github.com/.png)](https://github.com/) | 
-[![Devime](https://github.com/.png)](https://github.com/) | 
+[![Mr Hansamal](https://github.com/mrhansamala.png)](https://github.com/mrhansamala)  | 
+[![Pathum](https://github.com/pathum4563.png)](https://github.com/pathum4563) | 
+[![Gavidu](https://github.com/Rukshan208.png)](https://github.com/Rukshan208) | 
+[![Shakthi](https://github.com/.png)](https://github.com/) | 
 ----|----|----|----|----|----
