@@ -23,11 +23,9 @@
 
  ### FORK QUEEN NETHU REPO
        
-●.  ***Click [FORK](https://github.com/prabathLK/PRABATH-MD/fork)***
+●.  ***Click [FORK](https://github.com/mrhansamala/-Queen-Nethu-MD-Bot-/fork)***
     
- <p align="left">
-<a href="https://github.com/shashikabot/-Queen-Nethu-MD-Bot-/fork"><img align="center" src="https://i.ibb.co/6JPLzq0/3105206-f081-5-removebg-preview.png" alt="Fork and deploy" height="35" width="150" /></a>   
-   
+ 
 
    # 🧩 Deploy Queen Nethu MD
      
