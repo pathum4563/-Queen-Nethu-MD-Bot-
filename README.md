@@ -173,7 +173,7 @@
  
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@shashikabot/HumblePastelOrganization)
     
-   ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F00&lines=HOW+TO+DEVOLP+BY;MADE+BY+MR+SHADOW.)](https://git.io/typing-svg)
+   ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F00&lines=HOW+TO+DEVOLP+BY;MADE+BY+MR+Hansamala.)](https://git.io/typing-svg)
    
    ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FFF000&lines=1.+Fork+This+Repo)](https://git.io/typing-svg)
    ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FFF000&lines=2.+Scan+QR+Code)](https://git.io/typing-svg)
