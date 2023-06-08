@@ -29,6 +29,8 @@
 <a href="https://github.com/shashikabot/-Queen-Nethu-MD-Bot-/fork"><img align="center" src="https://i.ibb.co/6JPLzq0/3105206-f081-5-removebg-preview.png" alt="Fork and deploy" height="35" width="150" /></a>   
     
   ### ıllıllı ＳＣＡＮ ＱＲ ＣＯＤＥ ıllıllı
+     
+     
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shashikabot/-Queen-Nethu-MD-Bot-.git)
      </div>
@@ -70,4 +72,4 @@
 </div>
 </div>
     </center>
-</body>
+</b
