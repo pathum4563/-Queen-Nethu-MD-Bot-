@@ -1,9 +1,6 @@
-### **Star ⭐ repo if you like Queen-MD.**
 
-## ❗ Warning
- ```You Can't Modify This Queen-MD Bot```
- 
- ## DEVELOPER TEAM :
+
+ ## ♛QUEEN NETHU TEAM :
  
   <div align="center">
   
@@ -13,9 +10,4 @@
 |  𝗠𝗔𝗜𝗡 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 | 𝗕𝗜𝗚 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 |  𝗦𝗨𝗣𝗣𝗢𝗥𝗧 | 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 | 𝗦𝗨𝗣𝗣𝗢𝗥𝗧𝗘𝗥 | 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 |
   
   </div>
-
-
-### Special Thanks To : 
- 
-- [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
 
