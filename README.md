@@ -187,7 +187,7 @@
 
 <p align="center">
 
-  <img src="https://c.tenor.com/AQw5BIsQFRAAAAAC/shiro-ngnl.gif" width="498" height="278"/>
+  <img src="https://i.ibb.co/w4yCvNv/nethu12.gif" width="498" height="278"/>
 
 </p>
 
