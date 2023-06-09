@@ -187,7 +187,7 @@
 
 <p align="center">
 
-  <img src="https://tenor.com/bcYpO.gif" width="498" height="278"/>
+  <img src="https://c.tenor.com/qN1saT1qxW8AAAAC/go-toubun-no-hanayome-nakano-nino.gif" width="498" height="278"/>
 
 </p>
 
