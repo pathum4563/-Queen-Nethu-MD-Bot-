@@ -151,7 +151,7 @@
   
 <p align="center">
     <a href="https://dash.boxmineworld.com/">
-    <img src="https://media.tenor.com/WMTrJN0HMGMAAAAi/%E3%81%93%E3%82%93%E3%83%91-%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF.gif" alt="Deploy on Boxmineworld" width="175px">
+    <img src="https://graph.org/file/2af0e67f320986702ea24.jpg" alt="Deploy on Boxmineworld" width="175px">
     </a>
     
 </p>
@@ -187,7 +187,7 @@
 
 <p align="center">
 
-  <img src="https://media.tenor.com/D-A6psTbeUMAAAAC/kizuna-ai-peace.gif" border="0"></a>
+  <img src="https://media.tenor.com/WMTrJN0HMGMAAAAi/%E3%81%93%E3%82%93%E3%83%91-%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF.gif" border="0"></a>
 
 </p>
 
