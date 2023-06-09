@@ -190,9 +190,3 @@
   <img src="https://media.tenor.com/SXpyWB8dDGIAAAAi/akirambow-smile-person.gif" border="0"></a>
 
 </p>
-
-<h2 align="center">
-
-  <b>M͟R͟ H͞a͞n͞s͞a͞m͞a͞l͞a͞</b>
-
-</h2>
