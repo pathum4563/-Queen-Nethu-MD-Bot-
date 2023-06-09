@@ -187,7 +187,7 @@
 
 <p align="center">
 
-  <img src="https://tenor.com/bcYpO.gif"
+  <img src="https://tenor.com/bcYpO.gif" width="498" height="278"/>
 
 </p>
 
