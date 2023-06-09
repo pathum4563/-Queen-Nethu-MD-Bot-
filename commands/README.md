@@ -1,8 +1,21 @@
-<h2 align="center">🔰 Meet Team Queen Nethu 🔰
-</h2>
+### **Star ⭐ repo if you like Queen-MD.**
 
-[![Mr Hansamal](https://github.com/mrhansamala.png)](https://github.com/mrhansamala)  | [![Pathum](https://github.com/pathum4563.png)](https://github.com/pathum4563) | [![Gavidu](https://github.com/Rukshan208.png)](https://github.com/Rukshan208) | [![Shakthi](https://github.com/.png)](https://github.com/) | 
-----|----|----|----|----|----
-[Mr Hansamala](https://github.com/mrhansamala)  | [Ahmii Kun](https://github.com/Ahmii-kun) | [Pratyush](https://github.com/pratyush4932) | [Devime](https://github.com/Devime69) | [Kai](https://github.com/Kai0071) | [Jayjay Ops](https://github.com/jayjay-ops)
+## ❗ Warning
+ ```You Can't Modify This Queen-MD Bot```
+ 
+ ## DEVELOPER TEAM :
+ 
+  <div align="center">
+  
+| [![MR Hansamala](https://github.com/mrhansamala.png?size=200)](https://github.com/mrhansamala) | [![MR Pathum](https://github.com/pathum4563.png?size=200)](https://github.com/pathum4563) | [![MR Gavindu](https://github.com/Rukshan208.png?size=200)](https://github.com/Rukshan208) | [![MR Shakthi](https://github.com/DarkWinzo.png?size=200)](https://github.com/DarkWinzo) |
+|----|----|----|----|
+| [MR Hansamala](https://github.com/mrhansamala) | [MR Pathum](https://github.com/pathum4563) | 
+|  𝗠𝗔𝗜𝗡 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 | 𝗚𝗥𝗔𝗣𝗛𝗜𝗖 𝗗𝗘𝗦𝗜𝗚𝗡𝗘𝗥 | 𝗕𝗜𝗚 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 | 𝗦𝗨𝗣𝗣𝗢𝗥𝗧𝗘𝗥 |
+  
+  </div>
 
-Owner, Main Developer, Maintainer, Dubugger  | Co-Developer, Co-Maintainer | Support Developer | API Maintainer | Ideas, Testing | Ideas, Testing
+
+### Special Thanks To : 
+ 
+- [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
+
