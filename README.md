@@ -187,7 +187,7 @@
 
 <p align="center">
 
-  <img src="https://media.tenor.com/WMTrJN0HMGMAAAAi/%E3%81%93%E3%82%93%E3%83%91-%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF.gif" border="0"></a>
+  <img src="https://media.tenor.com/HDsyFgI2MN0AAAAi/chika-chika-dance.gif" border="0"></a>
 
 </p>
 
