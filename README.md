@@ -187,7 +187,7 @@
 
 <p align="center">
 
-  <img src="https://media.tenor.com/D-A6psTbeUMAAAAC/kizuna-ai-peace.gif" width="498" height="278"/>
+  <img src="https://media.tenor.com/D-A6psTbeUMAAAAC/kizuna-ai-peace.gif" border="0"></a>
 
 </p>
 
