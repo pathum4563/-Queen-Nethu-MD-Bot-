@@ -187,7 +187,7 @@
 
 <p align="center">
 
-  <img src="https://c.tenor.com/qN1saT1qxW8AAAAC/go-toubun-no-hanayome-nakano-nino.gif" width="498" height="278"/>
+  <img src="https://tenor.googleapis.com/v2/media?id=15747913963660975762&format=optimizedgif&client_key=tenor_web&appversion=browser-r20230605-1&access_token=ya29.a0AWY7CknYtSeDFbodyhAeTkMkYxMMgevvEUPkz5nEtP7uxmTodlkYjoHvIFVYBs9_H_6rcIpXMjdVdivgR9E7JYY1pFmycjTfJKQj1L4-JdEIhSaqa5WHEF1oznuJiEUgQxrqgm9hAGlyl-ZsGqweYy3iJyfTaCgYKAaYSARESFQG1tDrpxfkldbgzoKQavbeaK6zTVA0163&key=AIzaSyC-P6_qz3FzCoXGLk6tgitZo4jEJ5mLzD8" width="498" height="278"/>
 
 </p>
 
