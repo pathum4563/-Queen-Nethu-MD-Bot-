@@ -1,13 +1,13 @@
 {
-               "name": "PRABATH-MD",
+               "name": "QUEEN-NETHU-MD",
                "version": "5.0.0",
                "description": "Multi device whatsapp bot by prabath.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name prabath",
-                "stop": "pm2 stop prabath"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name hansamal",
+                "stop": "pm2 stop hansamala"
                 },
                "author": "Prabath",
               "dependencies": {
@@ -81,10 +81,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/prabathLK/PRABATH_MD.git"
+                 "url": "git+https://github.com/mrhansamala/-Queen-Nethu-MD-Bot-.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/prabathLK/PRABATH_MD/issues"
+                 "url": "https://github.com/mrhansamala/-Queen-Nethu-MD-Bot-/issues"
                   },
-                 "homepage": "https://github.com/prabathLK/PRABATH_MD#readme"
+                 "homepage": "https://github.com/mrhansamala/-Queen-Nethu-MD-Bot-#readme"
                   }
